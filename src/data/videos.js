@@ -146,13 +146,14 @@ export const videos = [
     poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/Ayra-Starr-Rush-Official-Music-Video-AyraStarrVEVO-720p-h264.jpg",
     category: "Music"
   },
-  {
+  /*{
     id: "music-ayra-starr-hot-body",
     title: "Hot Body",
     src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/Ayra-Starr-Hot-Body-AyraStarrVEVO-720p-h264.mp4",
     poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/Ayra-Starr-Hot-Body-AyraStarrVEVO-720p-h264.jpg",
     category: "Music"
   },
+  */
   {
     id: "sports-charity-matches-funny",
     title: "Charity Matches Funny Moments",
