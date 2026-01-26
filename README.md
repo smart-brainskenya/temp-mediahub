@@ -1,16 +1,71 @@
-# React + Vite
+# Smart Brains Kenya – Temporary Static Media Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The **Temporary Static Media Hub** is a read-only, frontend-only React application designed to provide a curated set of images and videos for students. It serves as a reliable, zero-data friendly replacement for Google Images and YouTube during class sessions, preserving the existing student mental model for media reuse in HTML projects.
 
-Currently, two official plugins are available:
+This project is a **deliberate stop-gap solution** and is treated as throwaway-safe, intended to be replaced by a full backend-integrated Media Hub in the future.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+- **Image Gallery**: A collection of curated images that students can browse and preview.
+- **Video Library**: A collection of native HTML5 videos with playback controls.
+- **Student-Centric Design**: 
+    - **Right-Click Friendly**: Students can right-click any image or video to "Copy image address" or "Copy video address" for use in their own projects.
+    - **Native Preview**: Uses standard `<img>` and `<video>` tags to ensure compatibility and familiar behavior.
+- **Static Content**: All media metadata is hardcoded in JavaScript data files, requiring no backend or database.
 
-## React Compiler
+## Technical Requirements
+- **Runtime**: Node.js (Latest LTS recommended)
+- **Package Manager**: npm
+- **Framework**: React 19 (Vite-based)
+- **Routing**: React Router 7
+- **Styling**: Standard CSS (Modular approach)
+- **Deployment**: Optimized for Vercel or any static site hosting.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+- `src/components/`: Reusable UI components (Cards, Modals, Layout).
+- `src/pages/`: Main application views (Home, Gallery, Library).
+- `src/data/`: Static JavaScript files containing media metadata.
+- `ai-spec/`: Authoritative project specifications and design rules.
+- `public/assets/`: Local static assets like the project logo.
 
-## Expanding the ESLint configuration
+## Setup and Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**:
+   ```bash
+   git clone <repository-url>
+   cd temp-mediahub
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## Deployment
+This application is configured for deployment on **Vercel**. 
+- The `vercel.json` file handles SPA routing redirects.
+- Ensure the Build Command is `npm run build` and the Output Directory is `dist`.
+
+## Specifications & Documentation
+Detailed project specs, user flows, and UI rules can be found in the `ai-spec/` directory:
+- [Canonical Overview](./ai-spec/00_Canonical_Overview_Temp_Mediahub.md)
+- [User Flows](./ai-spec/01_USER_FLOWS_TEMP.md)
+- [Data Schema](./ai-spec/02_DATA_SCHEMA_TEMP.md)
+- [UI Rules](./ai-spec/03_UI_RULES_TEMP.md)
+
+## Non-Goals
+This project explicitly excludes:
+- Backend or API integration.
+- Authentication or user accounts.
+- Admin dashboards or upload functionality.
+- Databases or persistence layers.
