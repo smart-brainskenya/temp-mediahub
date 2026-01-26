@@ -1,71 +1,139 @@
 # Smart Brains Kenya – Temporary Static Media Hub
 
-## Overview
-The **Temporary Static Media Hub** is a read-only, frontend-only React application designed to provide a curated set of images and videos for students. It serves as a reliable, zero-data friendly replacement for Google Images and YouTube during class sessions, preserving the existing student mental model for media reuse in HTML projects.
+![Status: Temporary](https://img.shields.io/badge/Status-Temporary%20%2F%20StopGap-orange)
+![Framework: React](https://img.shields.io/badge/Framework-React%2019-blue)
+![Build Tool: Vite](https://img.shields.io/badge/Build-Vite-purple)
+![Deployment: Vercel](https://img.shields.io/badge/Deployment-Vercel-black)
 
-This project is a **deliberate stop-gap solution** and is treated as throwaway-safe, intended to be replaced by a full backend-integrated Media Hub in the future.
+## 📖 Table of Contents
+- [Project Overview](#project-overview)
+- [Why This Exists](#why-this-exists)
+- [Core Features](#core-features)
+- [Student Workflow (Mental Model)](#student-workflow-mental-model)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Technical Constraints](#technical-constraints)
+- [Documentation & Specs](#documentation--specs)
 
-## Key Features
-- **Image Gallery**: A collection of curated images that students can browse and preview.
-- **Video Library**: A collection of native HTML5 videos with playback controls.
-- **Student-Centric Design**: 
-    - **Right-Click Friendly**: Students can right-click any image or video to "Copy image address" or "Copy video address" for use in their own projects.
-    - **Native Preview**: Uses standard `<img>` and `<video>` tags to ensure compatibility and familiar behavior.
-- **Static Content**: All media metadata is hardcoded in JavaScript data files, requiring no backend or database.
+---
 
-## Technical Requirements
-- **Runtime**: Node.js (Latest LTS recommended)
-- **Package Manager**: npm
-- **Framework**: React 19 (Vite-based)
-- **Routing**: React Router 7
-- **Styling**: Standard CSS (Modular approach)
-- **Deployment**: Optimized for Vercel or any static site hosting.
+## Project Overview
+The **Temporary Static Media Hub** is a lightweight, **read-only** React application designed to act as a "controlled media shelf" for students. 
 
-## Project Structure
-- `src/components/`: Reusable UI components (Cards, Modals, Layout).
-- `src/pages/`: Main application views (Home, Gallery, Library).
-- `src/data/`: Static JavaScript files containing media metadata.
-- `ai-spec/`: Authoritative project specifications and design rules.
-- `public/assets/`: Local static assets like the project logo.
+It provides a curated collection of **Images** and **Videos** that students can browse, preview, and reuse in their HTML/CSS projects. It is built to function entirely without a backend, database, or user authentication.
 
-## Setup and Installation
+---
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd temp-mediahub
-   ```
+## Why This Exists
+This project serves as a critical **stop-gap solution** to:
+1.  **Unblock Learning**: Allow lessons to proceed in zero-data or restricted internet environments.
+2.  **Replace External Tools**: Substitute Google Images and YouTube with a safe, local-like alternative.
+3.  **Preserve Habits**: Maintain the exact "Search -> Click -> Copy URL" workflow students have already learned.
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+> **Note**: This is a throwaway-safe implementation intended to be replaced by a full-stack version later.
 
-3. **Run development server**:
-   ```bash
-   npm run dev
-   ```
+---
 
-4. **Build for production**:
-   ```bash
-   npm run build
-   ```
+## Core Features
+| Feature | Description |
+| :--- | :--- |
+| **🖼️ Image Gallery** | Grid of high-quality, curated images organized by category. |
+| **🎥 Video Library** | Native HTML5 video player with standard controls. |
+| **⚡ Instant Search** | Client-side filtering of media assets. |
+| **🖱️ Right-Click Ready** | Native browser context menu support (`Copy Image Address`). |
+| **📱 Responsive Design** | Clean, card-based UI that works on various screen sizes. |
+
+---
+
+## Student Workflow (Mental Model)
+The application strictly adheres to the following interactions to match standard web browsing:
+
+### For Images
+1.  Browse the **Image Gallery**.
+2.  Click an image to preview it large.
+3.  **Right-click** the image.
+4.  Select **"Copy Image Address"**.
+5.  Paste into HTML: `<img src="...">`.
+
+### For Videos
+1.  Browse the **Video Library**.
+2.  Click a video to watch.
+3.  **Right-click** or use the **Copy URL** button.
+4.  Paste into HTML: `<video src="...">`.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js (Latest LTS)
+- npm
+
+### Installation
+```bash
+# 1. Clone the repository
+git clone <repository-url>
+cd temp-mediahub
+
+# 2. Install dependencies
+npm install
+```
+
+### Development
+```bash
+# Start the local development server
+npm run dev
+```
+
+### Production Build
+```bash
+# Build for production
+npm run build
+
+# Preview the production build locally
+npm run preview
+```
+
+---
 
 ## Deployment
-This application is configured for deployment on **Vercel**. 
-- The `vercel.json` file handles SPA routing redirects.
-- Ensure the Build Command is `npm run build` and the Output Directory is `dist`.
+This project is optimized for **Vercel**.
 
-## Specifications & Documentation
-Detailed project specs, user flows, and UI rules can be found in the `ai-spec/` directory:
-- [Canonical Overview](./ai-spec/00_Canonical_Overview_Temp_Mediahub.md)
-- [User Flows](./ai-spec/01_USER_FLOWS_TEMP.md)
-- [Data Schema](./ai-spec/02_DATA_SCHEMA_TEMP.md)
-- [UI Rules](./ai-spec/03_UI_RULES_TEMP.md)
+1.  **Configuration**: A `vercel.json` file is included to handle Single Page Application (SPA) routing (rewriting all paths to `/index.html`).
+2.  **Build Command**: `npm run build`
+3.  **Output Directory**: `dist`
 
-## Non-Goals
-This project explicitly excludes:
-- Backend or API integration.
-- Authentication or user accounts.
-- Admin dashboards or upload functionality.
-- Databases or persistence layers.
+---
+
+## Project Structure
+```text
+/
+├── ai-spec/              # 🔴 Authoritative Project Specifications
+├── src/
+│   ├── components/       # Reusable UI components (Cards, Modals)
+│   ├── data/             # 💾 STATIC DATA (Hardcoded media lists)
+│   ├── pages/            # Main Route Views (Home, Gallery, Library)
+│   ├── App.jsx           # Main Application Entry
+│   └── main.jsx          # React DOM mounting
+├── public/               # Static assets (Favicons, Logos)
+└── vercel.json           # Deployment config
+```
+
+---
+
+## Technical Constraints
+*   **No Backend**: Logic must be purely frontend.
+*   **No Database**: Data is stored in `src/data/images.js` and `src/data/videos.js`.
+*   **No Auth**: No login required.
+*   **Hardcoded URLs**: Media links point directly to public content delivery networks (e.g., Publitio).
+
+---
+
+## Documentation & Specs
+For deep-dive details, refer to the `ai-spec/` folder. These documents are the **source of truth**:
+
+*   [📄 Canonical Overview](./ai-spec/00_Canonical_Overview_Temp_Mediahub.md)
+*   [📄 User Flows](./ai-spec/01_USER_FLOWS_TEMP.md)
+*   [📄 Data Schema](./ai-spec/02_DATA_SCHEMA_TEMP.md)
+*   [📄 UI Rules](./ai-spec/03_UI_RULES_TEMP.md)
