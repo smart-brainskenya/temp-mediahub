@@ -14,9 +14,9 @@ function App() {
           <Route index element={<Home />} />
           <Route path="images" element={<ImageGallery />} />
           <Route path="videos" element={<VideoLibrary />} />
-          <SpeedInsights />
         </Route>
       </Routes>
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
