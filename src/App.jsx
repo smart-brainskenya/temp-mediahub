@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import ImageGallery from "./pages/ImageGallery";
 import VideoLibrary from "./pages/VideoLibrary";
 import "./App.css";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="images" element={<ImageGallery />} />
           <Route path="videos" element={<VideoLibrary />} />
+          <SpeedInsights />
         </Route>
       </Routes>
     </BrowserRouter>
