@@ -20,6 +20,14 @@ export default function VideoPreviewModal({ video, onClose }) {
     setToast({ message: "Video link copied to clipboard!", type: "success" });
   };
 
+  const handleCopyEmbedCode = () => {
+    // Generate Publitio-style embed iframe code
+    const embedCode = `<div><div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><figure style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;" ><iframe src="${video.src.replace(/\.mp4$/, '.html')}" scrolling="no" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" ></iframe></figure></div></div>`;
+    
+    navigator.clipboard.writeText(embedCode);
+    setToast({ message: "Embed code copied to clipboard!", type: "success" });
+  };
+
   // Click backdrop to close (but not the modal itself)
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) {
@@ -57,6 +65,12 @@ export default function VideoPreviewModal({ video, onClose }) {
               onClick={handleCopyLink}
             >
               Copy Video Link
+            </button>
+            <button 
+              className="btn-primary" 
+              onClick={handleCopyEmbedCode}
+            >
+              Copy Embed Code
             </button>
           </div>
         </div>

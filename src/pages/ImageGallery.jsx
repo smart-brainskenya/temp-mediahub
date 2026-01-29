@@ -1,12 +1,14 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, lazy, Suspense } from "react";
 import { useNavigate } from "react-router-dom";
 import { images } from "../data/images";
 import ImageCard from "../components/ImageCard";
 import ImagePreviewModal from "../components/ImagePreviewModal";
 import SearchBar from "../components/SearchBar";
+import RequestAssetModal from "../components/RequestAssetModal";
 
 export default function ImageGallery() {
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isRequestModalOpen, setIsRequestModalOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const navigate = useNavigate();
@@ -51,12 +53,29 @@ export default function ImageGallery() {
             <ImageCard key={img.id} image={img} onClick={setSelectedImage} />
           ))
         ) : (
-          <p className="no-results">No images found matching your search.</p>
+          <div className="no-results">
+            <p>No images found matching your search.</p>
+            <button 
+              className="btn-secondary"
+              onClick={() => setIsRequestModalOpen(true)}
+              style={{ marginTop: '1rem' }}
+            >
+              Didn't find what you're looking for? Request it.
+            </button>
+          </div>
         )}
       </div>
 
       {selectedImage && (
         <ImagePreviewModal image={selectedImage} onClose={() => setSelectedImage(null)} />
+      )}
+
+      {isRequestModalOpen && (
+        <RequestAssetModal 
+          initialQuery={searchQuery}
+          initialType="image"
+          onClose={() => setIsRequestModalOpen(false)}
+        />
       )}
     </div>
   );

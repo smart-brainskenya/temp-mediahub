@@ -4,9 +4,11 @@ import { videos } from "../data/videos";
 import VideoCard from "../components/VideoCard";
 import VideoPreviewModal from "../components/VideoPreviewModal";
 import SearchBar from "../components/SearchBar";
+import RequestAssetModal from "../components/RequestAssetModal";
 
 export default function VideoLibrary() {
   const [selectedVideo, setSelectedVideo] = useState(null);
+  const [isRequestModalOpen, setIsRequestModalOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("");
   const navigate = useNavigate();
@@ -50,12 +52,29 @@ export default function VideoLibrary() {
             <VideoCard key={video.id} video={video} onClick={setSelectedVideo} />
           ))
         ) : (
-          <p className="no-results">No videos found matching your search.</p>
+          <div className="no-results">
+            <p>No videos found matching your search.</p>
+            <button 
+              className="btn-secondary"
+              onClick={() => setIsRequestModalOpen(true)}
+              style={{ marginTop: '1rem' }}
+            >
+              Didn't find what you're looking for? Request it.
+            </button>
+          </div>
         )}
       </div>
 
       {selectedVideo && (
         <VideoPreviewModal video={selectedVideo} onClose={() => setSelectedVideo(null)} />
+      )}
+
+      {isRequestModalOpen && (
+        <RequestAssetModal 
+          initialQuery={searchQuery}
+          initialType="video"
+          onClose={() => setIsRequestModalOpen(false)}
+        />
       )}
     </div>
   );

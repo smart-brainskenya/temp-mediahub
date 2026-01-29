@@ -18,7 +18,8 @@ export default function VideoCard({ video, onClick }) {
       </div>
       <div className="video-info">
         <h3>{video.title}</h3>
-        {video.duration && <p>Duration: {video.duration}</p>}
+        {/*video.duration && <p>Duration: {video.duration}</p>*/}
+         <span className="category-tag">{video.category}</span>
       </div>
     </div>
   );

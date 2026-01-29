@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="home-container">
       <div className="home-hero">
-        <img src="/assets/Logo.png" alt="Smart Brains Kenya Logo" className="home-logo" />
+        <div className="home-hero-icon">🎨</div>
         
         <h1>What would you like to find today?</h1>
         <p>Explore our amazing collection of images and videos to use in your awesome coding projects!</p>
