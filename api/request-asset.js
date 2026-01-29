@@ -1,10 +1,6 @@
 export default function handler(req, res) {
   if (req.method === 'POST') {
     try {
-      // In a real serverless environment (like Vercel), the filesystem is ephemeral.
-      // We cannot append to a local JSON file and expect it to persist.
-      // For Phase 1 on Production, we will log the request to the Function Logs (stdout).
-      // The admin can view these logs in the Vercel Dashboard.
       
       const requestData = req.body;
       
