@@ -54,7 +54,8 @@ export default async function handler(req, res) {
           access: 'public',
           contentType: 'application/json',
           addRandomSuffix: false,
-          token: CUSTOM_TOKEN
+          token: CUSTOM_TOKEN,
+          allowOverwrite: true
         });
       } else {
         console.warn('mediahub_READ_WRITE_TOKEN missing. Request logged to console only.');

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Toast from "./Toast";
+import { href } from "react-router-dom";
 
 export default function RequestAssetModal({ initialQuery, initialType = "image", onClose }) {
   const [query, setQuery] = useState(initialQuery || "");
@@ -70,6 +71,12 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
     }
   };
 
+  const handleCloseModal = () => {
+    // Clear search and navigate back
+    localStorage.removeItem("searchQuery");
+    onClose();
+  };
+
   return (
     <div className="modal-backdrop" onClick={handleBackdropClick}>
       <div className="modal-content request-modal-content">
@@ -77,7 +84,7 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
         {/* Header */}
         <div className="request-header">
           <h2>Request Missing Asset</h2>
-          <button className="modal-close" style={{position: 'static'}} onClick={onClose} aria-label="Close modal">
+          <button className="modal-close" style={{position: 'static'}} onClick={handleCloseModal} aria-label="Close modal">
             ✕
           </button>
         </div>
@@ -89,7 +96,7 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
               <h3>Request sent successfully!</h3>
               <p>We'll add "<strong>{query.trim()}</strong>" to our collection soon.</p>
               <p className="success-subtext">Check back to see your request in action!</p>
-              <button className="btn-primary" onClick={onClose}>
+              <button className="btn-primary" onClick={handleCloseModal}>
                 Close
               </button>
             </div>
@@ -198,7 +205,7 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
                 <button 
                   type="button" 
                   className="btn-secondary" 
-                  onClick={onClose}
+                  onClick={handleCloseModal}
                   disabled={status === "submitting"}
                   style={{ border: 'none', color: 'var(--text-light)' }}
                 >
