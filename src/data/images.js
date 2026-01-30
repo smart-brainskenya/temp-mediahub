@@ -700,7 +700,7 @@ export const images = [
     title: "Red Sports Car Front View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-confident-portrait.jpg",
     alt: "Image of red sports car front view",
-    category: "Vehicleses"
+    category: "Vehicles"
   },
   {
     id: "people-woman-glasses-portrait",
@@ -721,7 +721,7 @@ export const images = [
     title: "Meerkat Standing On Rock",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-happy-portrait.jpg",
     alt: "Image of meerkat standing on rock",
-    category: "Animalss"
+    category: "Animals"
   },
   {
     id: "people-woman-laughing-portrait",
@@ -742,7 +742,7 @@ export const images = [
     title: "Rhinoceros In Wildlife Reserve",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-outdoor.jpg",
     alt: "Image of rhinoceros in wildlife reserve",
-    category: "Animalss"
+    category: "Animals"
   },
   {
     id: "people-woman-portrait",
@@ -790,56 +790,56 @@ export const images = [
     id: "sports-bournemouth-home-kit",
     title: "Bournemouth Home Kit Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/bournemouth-home-kit.png",
-    alt: "Image of bournemouth home kit studio studio",
+    alt: "Image of bournemouth home kit studio",
     category: "Sports"
   },
   {
     id: "sports-bournemouth-new-kit",
     title: "Bournemouth Away Kit Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/bournemouth-new-kit.jpg",
-    alt: "Image of bournemouth away kit studiot studio",
+    alt: "Image of bournemouth away kit studio",
     category: "Sports"
   },
   {
     id: "sports-brentford-away-kit-1",
     title: "Brentford Away Kit Group",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/brentford-away-kit-1.png",
-    alt: "Image of brentford away kit grouproup",
+    alt: "Image of brentford away kit group",
     category: "Sports"
   },
   {
     id: "sports-brentford-away-kit-2",
     title: "Brentford Away Kit Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/brentford-away-kit-2.png",
-    alt: "Image of brentford away kit close-uplose-up",
+    alt: "Image of brentford away kit close-up",
     category: "Sports"
   },
   {
     id: "sports-bruno-fernandes",
     title: "Football Player Portrait Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/bruno-fernandes.jpg",
-    alt: "Image of football player portrait studio portrait studio",
+    alt: "Image of football player portrait studio",
     category: "Sports"
   },
   {
     id: "sports-burnley-away-kit",
     title: "Burnley Away Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/burnley-away-kit.png",
-    alt: "Image of burnley away kit players players",
+    alt: "Image of burnley away kit players",
     category: "Sports"
   },
   {
     id: "sports-burnley-home-kit",
     title: "Burnley Home Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/burnley-home-kit.jpg",
-    alt: "Image of burnley home kit players players",
+    alt: "Image of burnley home kit players",
     category: "Sports"
   },
   {
     id: "sports-chelsea-third-kit",
     title: "Chelsea Third Kit Display",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/chelsea-third-kit.jpg",
-    alt: "Image of chelsea third kit display display",
+    alt: "Image of chelsea third kit display",
     category: "Sports"
   },
   {
@@ -867,7 +867,7 @@ export const images = [
     id: "sports-ederson-city-2",
     title: "Goalkeeper Portrait In Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/ederson-city-2.jpg",
-    alt: "Image of goalkeeper portrait in kittrait in kit",
+    alt: "Image of goalkeeper portrait in kit",
     category: "Sports"
   },
   {
@@ -881,7 +881,7 @@ export const images = [
     id: "sports-erling-haaland-portrait",
     title: "Football Player Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/erling-haaland-portrait.jpg",
-    alt: "Image of football player studior studio portrait",
+    alt: "Image of football player studio portrait",
     category: "Sports"
   },
   {
@@ -909,35 +909,35 @@ export const images = [
     id: "sports-jack-grealish-portrait",
     title: "Football Player Casual Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/jack-grealish-portrait.jpg",
-    alt: "Image of football player casualer casual portrait",
+    alt: "Image of football player casual portrait",
     category: "Sports"
   },
   {
     id: "sports-jordan-pickford-everton",
     title: "Goalkeeper Seated Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/jordan-pickford-everton.jpg",
-    alt: "Image of goalkeeper seated portraitait",
+    alt: "Image of goalkeeper seated portrait",
     category: "Sports"
   },
   {
     id: "sports-kovavic-shirt",
     title: "Football Training Top",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/kovavic-shirt.jpg",
-    alt: "Image of football training topning top",
+    alt: "Image of football training top",
     category: "Sports"
   },
   {
     id: "sports-leeds-away-kit-2",
     title: "Leeds Away Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leeds-away-kit-2.jpg",
-    alt: "Image of leeds away kit playerslayers",
+    alt: "Image of leeds away kit players",
     category: "Sports"
   },
   {
     id: "sports-leeds-third-kit",
     title: "Leeds Third Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leeds-third-kit.png",
-    alt: "Image of leeds third kit players players",
+    alt: "Image of leeds third kit players",
     category: "Sports"
   },
   {
@@ -951,7 +951,7 @@ export const images = [
     id: "sports-leny-yoro",
     title: "Football Player Locker Room",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leny-yoro.jpg",
-    alt: "Image of football player locker roomplayer locker room",
+    alt: "Image of football player locker room",
     category: "Sports"
   },
   {
@@ -965,21 +965,21 @@ export const images = [
     id: "sports-liverpool-home-kit-mac-allister",
     title: "Liverpool Home Kit Player",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/liverpool-home-kit-mac-allister.jpg",
-    alt: "Image of liverpool home kit play",
+    alt: "Image of liverpool home kit player",
     category: "Sports"
   },
   {
     id: "sports-man-city-kit-away",
     title: "Manchester City Away Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/man-city-kit-away.jpg",
-    alt: "Image of manchester city away kitway kit",
+    alt: "Image of manchester city away kit",
     category: "Sports"
   },
   {
     id: "sports-man-city-kit-home",
     title: "Manchester City Home Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/man-city-kit-home.jpg",
-    alt: "Image of manchester city home kitome kit",
+    alt: "Image of manchester city home kit",
     category: "Sports"
   },
   {
@@ -1014,21 +1014,21 @@ export const images = [
     id: "sports-player-action-1",
     title: "Football Players Portrait Pair",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-action-1.jpg",
-    alt: "Image of football players portrait pairs portrait pair",
+    alt: "Image of football players portrait pair",
     category: "Sports"
   },
   {
     id: "sports-player-action-2",
     title: "Football Players Portrait Pair",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-action-2.jpg",
-    alt: "Image of football players portrait pairs portrait pair",
+    alt: "Image of football players portrait pair",
     category: "Sports"
   },
   {
     id: "sports-player-profile-1",
     title: "West Ham United Logo",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-profile-1.svg",
-    alt: "Image of west ham united logologo",
+    alt: "Image of west ham united logo",
     category: "Sports"
   },
   {
@@ -1042,7 +1042,7 @@ export const images = [
     id: "sports-player-profile-3",
     title: "Arsenal FC Logo Variant",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-profile-3.svg",
-    alt: "Image of arsenal fc logo variantvariant",
+    alt: "Image of arsenal fc logo variant",
     category: "Sports"
   },
   {
@@ -1056,70 +1056,70 @@ export const images = [
     id: "sports-salah-van-dijk-1",
     title: "Football Players Posing Indoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/salah-van-dijk-1.jpg",
-    alt: "Image of football players posing indoors posing indoors",
+    alt: "Image of football players posing indoors",
     category: "Sports"
   },
   {
     id: "sports-salah-van-dijk-2",
     title: "Football Players Posing Indoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/salah-van-dijk-2.jpg",
-    alt: "Image of football players posing indoors posing indoors",
+    alt: "Image of football players posing indoors",
     category: "Sports"
   },
   {
     id: "sports-soccer-player-1",
     title: "Football Players Seated Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/soccer-player-1.jpg",
-    alt: "Image of football players seated portraits seated portrait",
+    alt: "Image of football players seated portrait",
     category: "Sports"
   },
   {
     id: "sports-soccer-player-2",
     title: "Football Player Casual Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/soccer-player-2.jpg",
-    alt: "Image of football player casual portrait casual portrait",
+    alt: "Image of football player casual portrait",
     category: "Sports"
   },
   {
     id: "sports-sports-icon-1",
     title: "Chelsea FC Crest",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-icon-1.svg",
-    alt: "Image of chelsea fc crestest",
+    alt: "Image of chelsea fc crest",
     category: "Sports"
   },
   {
     id: "sports-sports-icon-2",
     title: "Football Club Emblem",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-icon-2.svg",
-    alt: "Image of football club emblem emblem",
+    alt: "Image of football club emblem",
     category: "Sports"
   },
   {
     id: "sports-sports-moment-1",
     title: "Football Player Studio Pose",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-moment-1.jpg",
-    alt: "Image of football player studio pose studio pose",
+    alt: "Image of football player studio pose",
     category: "Sports"
   },
   {
     id: "sports-sports-moment-2",
     title: "Football Player Studio Pose",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-moment-2.jpg",
-    alt: "Image of football player studio pose studio pose",
+    alt: "Image of football player studio pose",
     category: "Sports"
   },
   {
     id: "sports-team-icon-1",
     title: "Brighton FC Logo",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/team-icon-1.svg",
-    alt: "Image of brighton fc logo logo",
+    alt: "Image of brighton fc logo",
     category: "Sports"
   },
   {
     id: "sports-team-icon-2",
     title: "Manchester City Crest",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/team-icon-2.svg",
-    alt: "Image of manchester city crestcity crest",
+    alt: "Image of manchester city crest",
     category: "Sports"
   },
   {
@@ -1140,7 +1140,7 @@ export const images = [
     id: "sports-watkins-onana-villa-third",
     title: "Aston Villa Third Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/watkins-onana-villa-third.png",
-    alt: "Image of aston villa third kit playersyers",
+    alt: "Image of aston villa third kit players",
     category: "Sports"
   },
   {
