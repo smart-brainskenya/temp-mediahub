@@ -11,38 +11,38 @@ export const images = [
   },
   {
     id: "cities-architectural-detail",
-    title: "Architectural Detail",
+    title: "Leopard",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/architectural-detail.jpg",
     alt: "Image of architectural detail",
-    category: "Cities"
+    category: "Animals"
   },
   {
     id: "cities-architectural-facade",
-    title: "Architectural Facade",
+    title: "Sleeping leopard",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/architectural-facade.jpg",
     alt: "Image of architectural facade",
-    category: "Cities"
+    category: "Animals"
   },
   {
     id: "cities-architecture-minimal",
-    title: "Architecture Minimal",
+    title: "Ferrari in Forest",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/architecture-minimal.jpg",
     alt: "Image of architecture minimal",
-    category: "Cities"
+    category: "Cars"
   },
   {
     id: "cities-busy-street",
-    title: "Busy Street",
+    title: "BMW Convoy",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/busy-street.jpg",
     alt: "Image of busy street",
-    category: "Cities"
+    category: "Cars"
   },
   {
     id: "cities-city-infrastructure",
-    title: "City Infrastructure",
+    title: "Porsche 911",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/city-infrastructure.jpg",
     alt: "Image of city infrastructure",
-    category: "Cities"
+    category: "Cars"
   },
   {
     id: "cities-city-night-lights",
@@ -697,66 +697,66 @@ export const images = [
   },
   {
     id: "people-woman-confident-portrait",
-    title: "Woman Confident Portrait",
+    title: "Red Sports Car Front View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-confident-portrait.jpg",
-    alt: "Image of woman confident portrait",
-    category: "People"
+    alt: "Image of red sports car front view",
+    category: "Vehicles"
   },
   {
     id: "people-woman-glasses-portrait",
-    title: "Woman Glasses Portrait",
+    title: "Floral Bouquet Arrangement",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-glasses-portrait.jpg",
-    alt: "Image of woman glasses portrait",
-    category: "People"
+    alt: "Image of floral bouquet arrangement",
+    category: "Nature"
   },
   {
     id: "people-woman-hair-portrait",
-    title: "Woman Hair Portrait",
+    title: "Hot Air Balloon Over Landscape",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-hair-portrait.jpg",
-    alt: "Image of woman hair portrait",
-    category: "People"
+    alt: "Image of hot air balloon over landscape",
+    category: "Nature"
   },
   {
     id: "people-woman-happy-portrait",
-    title: "Woman Happy Portrait",
+    title: "Meerkat Standing On Rock",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-happy-portrait.jpg",
-    alt: "Image of woman happy portrait",
-    category: "People"
+    alt: "Image of meerkat standing on rock",
+    category: "Animals"
   },
   {
     id: "people-woman-laughing-portrait",
-    title: "Woman Laughing Portrait",
+    title: "Pink Lily Flower Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-laughing-portrait.jpg",
-    alt: "Image of woman laughing portrait",
-    category: "People"
+    alt: "Image of pink lily flower close-up",
+    category: "Nature"
   },
   {
     id: "people-woman-nature-portrait",
-    title: "Woman Nature Portrait",
+    title: "Sunflower Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-nature-portrait.jpg",
-    alt: "Image of woman nature portrait",
-    category: "People"
+    alt: "Image of sunflower close-up",
+    category: "Nature"
   },
   {
     id: "people-woman-outdoor",
-    title: "Woman Outdoor",
+    title: "Rhinoceros In Wildlife Reserve",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-outdoor.jpg",
-    alt: "Image of woman outdoor",
-    category: "People"
+    alt: "Image of rhinoceros in wildlife reserve",
+    category: "Animals"
   },
   {
     id: "people-woman-portrait",
-    title: "Woman Portrait",
+    title: "Wedding Flower Bouquet",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-portrait.jpg",
-    alt: "Image of woman portrait",
-    category: "People"
+    alt: "Image of wedding flower bouquet",
+    category: "Nature"
   },
   {
     id: "people-woman-professional-portrait",
-    title: "Woman Professional Portrait",
+    title: "Pink Flower Macro",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-professional-portrait.jpg",
-    alt: "Image of woman professional portrait",
-    category: "People"
+    alt: "Image of pink flower macro",
+    category: "Nature"
   },
   {
     id: "people-woman-smiling-portrait",
@@ -781,65 +781,65 @@ export const images = [
   },
   {
     id: "sports-aston-villa-home-shirt",
-    title: "Aston Villa Home Shirt",
+    title: "Aston Villa Home Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/aston-villa-home-shirt.jpg",
-    alt: "Image of aston villa home shirt",
+    alt: "Image of aston villa home kit",
     category: "Sports"
   },
   {
     id: "sports-bournemouth-home-kit",
-    title: "Bournemouth Home Kit",
+    title: "Bournemouth Home Kit Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/bournemouth-home-kit.png",
-    alt: "Image of bournemouth home kit",
+    alt: "Image of bournemouth home kit studio",
     category: "Sports"
   },
   {
     id: "sports-bournemouth-new-kit",
-    title: "Bournemouth New Kit",
+    title: "Bournemouth Away Kit Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/bournemouth-new-kit.jpg",
-    alt: "Image of bournemouth new kit",
+    alt: "Image of bournemouth away kit studio",
     category: "Sports"
   },
   {
     id: "sports-brentford-away-kit-1",
-    title: "Brentford Away Kit 1",
+    title: "Brentford Away Kit Group",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/brentford-away-kit-1.png",
-    alt: "Image of brentford away kit 1",
+    alt: "Image of brentford away kit group",
     category: "Sports"
   },
   {
     id: "sports-brentford-away-kit-2",
-    title: "Brentford Away Kit 2",
+    title: "Brentford Away Kit Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/brentford-away-kit-2.png",
-    alt: "Image of brentford away kit 2",
+    alt: "Image of brentford away kit close-up",
     category: "Sports"
   },
   {
     id: "sports-bruno-fernandes",
-    title: "Bruno Fernandes",
+    title: "Football Player Portrait Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/bruno-fernandes.jpg",
-    alt: "Image of bruno fernandes",
+    alt: "Image of football player portrait studio",
     category: "Sports"
   },
   {
     id: "sports-burnley-away-kit",
-    title: "Burnley Away Kit",
+    title: "Burnley Away Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/burnley-away-kit.png",
-    alt: "Image of burnley away kit",
+    alt: "Image of burnley away kit players",
     category: "Sports"
   },
   {
     id: "sports-burnley-home-kit",
-    title: "Burnley Home Kit",
+    title: "Burnley Home Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/burnley-home-kit.jpg",
-    alt: "Image of burnley home kit",
+    alt: "Image of burnley home kit players",
     category: "Sports"
   },
   {
     id: "sports-chelsea-third-kit",
-    title: "Chelsea Third Kit",
+    title: "Chelsea Third Kit Display",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/chelsea-third-kit.jpg",
-    alt: "Image of chelsea third kit",
+    alt: "Image of chelsea third kit display",
     category: "Sports"
   },
   {
@@ -865,9 +865,9 @@ export const images = [
   },
   {
     id: "sports-ederson-city-2",
-    title: "Ederson City 2",
+    title: "Goalkeeper Portrait In Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/ederson-city-2.jpg",
-    alt: "Image of ederson city 2",
+    alt: "Image of goalkeeper portrait in kit",
     category: "Sports"
   },
   {
@@ -879,9 +879,9 @@ export const images = [
   },
   {
     id: "sports-erling-haaland-portrait",
-    title: "Erling Haaland Portrait",
+    title: "Football Player Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/erling-haaland-portrait.jpg",
-    alt: "Image of erling haaland portrait",
+    alt: "Image of football player studio portrait",
     category: "Sports"
   },
   {
@@ -907,37 +907,37 @@ export const images = [
   },
   {
     id: "sports-jack-grealish-portrait",
-    title: "Jack Grealish Portrait",
+    title: "Football Player Casual Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/jack-grealish-portrait.jpg",
-    alt: "Image of jack grealish portrait",
+    alt: "Image of football player casual portrait",
     category: "Sports"
   },
   {
     id: "sports-jordan-pickford-everton",
-    title: "Jordan Pickford Everton",
+    title: "Goalkeeper Seated Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/jordan-pickford-everton.jpg",
-    alt: "Image of jordan pickford everton",
+    alt: "Image of goalkeeper seated portrait",
     category: "Sports"
   },
   {
     id: "sports-kovavic-shirt",
-    title: "Kovavic Shirt",
+    title: "Football Training Top",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/kovavic-shirt.jpg",
-    alt: "Image of kovavic shirt",
+    alt: "Image of football training top",
     category: "Sports"
   },
   {
     id: "sports-leeds-away-kit-2",
-    title: "Leeds Away Kit 2",
+    title: "Leeds Away Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leeds-away-kit-2.jpg",
-    alt: "Image of leeds away kit 2",
+    alt: "Image of leeds away kit players",
     category: "Sports"
   },
   {
     id: "sports-leeds-third-kit",
-    title: "Leeds Third Kit",
+    title: "Leeds Third Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leeds-third-kit.png",
-    alt: "Image of leeds third kit",
+    alt: "Image of leeds third kit players",
     category: "Sports"
   },
   {
@@ -949,37 +949,37 @@ export const images = [
   },
   {
     id: "sports-leny-yoro",
-    title: "Leny Yoro",
+    title: "Football Player Locker Room",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leny-yoro.jpg",
-    alt: "Image of leny yoro",
+    alt: "Image of football player locker room",
     category: "Sports"
   },
   {
     id: "sports-liverpool-away-kit-van-dijk",
-    title: "Liverpool Away Kit Van Dijk",
+    title: "Liverpool Away Kit Player",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/liverpool-away-kit-van-dijk.jpg",
-    alt: "Image of liverpool away kit van dijk",
+    alt: "Image of liverpool away kit player",
     category: "Sports"
   },
   {
     id: "sports-liverpool-home-kit-mac-allister",
-    title: "Liverpool Home Kit Mac Allister",
+    title: "Liverpool Home Kit Player",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/liverpool-home-kit-mac-allister.jpg",
-    alt: "Image of liverpool home kit mac allister",
+    alt: "Image of liverpool home kit player",
     category: "Sports"
   },
   {
     id: "sports-man-city-kit-away",
-    title: "Man City Kit Away",
+    title: "Manchester City Away Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/man-city-kit-away.jpg",
-    alt: "Image of man city kit away",
+    alt: "Image of manchester city away kit",
     category: "Sports"
   },
   {
     id: "sports-man-city-kit-home",
-    title: "Man City Kit Home",
+    title: "Manchester City Home Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/man-city-kit-home.jpg",
-    alt: "Image of man city kit home",
+    alt: "Image of manchester city home kit",
     category: "Sports"
   },
   {
@@ -1012,37 +1012,37 @@ export const images = [
   },
   {
     id: "sports-player-action-1",
-    title: "Player Action 1",
+    title: "Football Players Portrait Pair",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-action-1.jpg",
-    alt: "Image of player action 1",
+    alt: "Image of football players portrait pair",
     category: "Sports"
   },
   {
     id: "sports-player-action-2",
-    title: "Player Action 2",
+    title: "Football Players Portrait Pair",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-action-2.jpg",
-    alt: "Image of player action 2",
+    alt: "Image of football players portrait pair",
     category: "Sports"
   },
   {
     id: "sports-player-profile-1",
-    title: "Player Profile 1",
+    title: "West Ham United Logo",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-profile-1.svg",
-    alt: "Image of player profile 1",
+    alt: "Image of west ham united logo",
     category: "Sports"
   },
   {
     id: "sports-player-profile-2",
-    title: "Player Profile 2",
+    title: "Arsenal FC Logo",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-profile-2.svg",
-    alt: "Image of player profile 2",
+    alt: "Image of arsenal fc logo",
     category: "Sports"
   },
   {
     id: "sports-player-profile-3",
-    title: "Player Profile 3",
+    title: "Arsenal FC Logo Variant",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/player-profile-3.svg",
-    alt: "Image of player profile 3",
+    alt: "Image of arsenal fc logo variant",
     category: "Sports"
   },
   {
@@ -1054,72 +1054,72 @@ export const images = [
   },
   {
     id: "sports-salah-van-dijk-1",
-    title: "Salah Van Dijk 1",
+    title: "Football Players Posing Indoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/salah-van-dijk-1.jpg",
-    alt: "Image of salah van dijk 1",
+    alt: "Image of football players posing indoors",
     category: "Sports"
   },
   {
     id: "sports-salah-van-dijk-2",
-    title: "Salah Van Dijk 2",
+    title: "Football Players Posing Indoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/salah-van-dijk-2.jpg",
-    alt: "Image of salah van dijk 2",
+    alt: "Image of football players posing indoors",
     category: "Sports"
   },
   {
     id: "sports-soccer-player-1",
-    title: "Soccer Player 1",
+    title: "Football Players Seated Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/soccer-player-1.jpg",
-    alt: "Image of soccer player 1",
+    alt: "Image of football players seated portrait",
     category: "Sports"
   },
   {
     id: "sports-soccer-player-2",
-    title: "Soccer Player 2",
+    title: "Football Player Casual Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/soccer-player-2.jpg",
-    alt: "Image of soccer player 2",
+    alt: "Image of football player casual portrait",
     category: "Sports"
   },
   {
     id: "sports-sports-icon-1",
-    title: "Sports Icon 1",
+    title: "Chelsea FC Crest",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-icon-1.svg",
-    alt: "Image of sports icon 1",
+    alt: "Image of chelsea fc crest",
     category: "Sports"
   },
   {
     id: "sports-sports-icon-2",
-    title: "Sports Icon 2",
+    title: "Football Club Emblem",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-icon-2.svg",
-    alt: "Image of sports icon 2",
+    alt: "Image of football club emblem",
     category: "Sports"
   },
   {
     id: "sports-sports-moment-1",
-    title: "Sports Moment 1",
+    title: "Football Player Studio Pose",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-moment-1.jpg",
-    alt: "Image of sports moment 1",
+    alt: "Image of football player studio pose",
     category: "Sports"
   },
   {
     id: "sports-sports-moment-2",
-    title: "Sports Moment 2",
+    title: "Football Player Studio Pose",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/sports-moment-2.jpg",
-    alt: "Image of sports moment 2",
+    alt: "Image of football player studio pose",
     category: "Sports"
   },
   {
     id: "sports-team-icon-1",
-    title: "Team Icon 1",
+    title: "Brighton FC Logo",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/team-icon-1.svg",
-    alt: "Image of team icon 1",
+    alt: "Image of brighton fc logo",
     category: "Sports"
   },
   {
     id: "sports-team-icon-2",
-    title: "Team Icon 2",
+    title: "Manchester City Crest",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/team-icon-2.svg",
-    alt: "Image of team icon 2",
+    alt: "Image of manchester city crest",
     category: "Sports"
   },
   {
@@ -1138,51 +1138,51 @@ export const images = [
   },
   {
     id: "sports-watkins-onana-villa-third",
-    title: "Watkins Onana Villa Third",
+    title: "Aston Villa Third Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/watkins-onana-villa-third.png",
-    alt: "Image of watkins onana villa third",
+    alt: "Image of aston villa third kit players",
     category: "Sports"
   },
   {
     id: "technology-business-tech",
-    title: "Business Tech",
+    title: "Dog Inside Classic Car",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/business-tech.jpg",
-    alt: "Image of business tech",
-    category: "Technology"
+    alt: "Image of dog inside classic car",
+    category: "Objects"
   },
   {
     id: "technology-computer-setup",
-    title: "Computer Setup",
+    title: "Red Classic Sports Car Rear",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/computer-setup.jpg",
-    alt: "Image of computer setup",
-    category: "Technology"
+    alt: "Image of red classic sports car rear",
+    category: "Vehicles"
   },
   {
     id: "technology-office-workspace",
-    title: "Office Workspace",
+    title: "Fern Leaf Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/office-workspace.jpg",
-    alt: "Image of office workspace",
-    category: "Technology"
+    alt: "Image of fern leaf close-up",
+    category: "Nature"
   },
   {
     id: "technology-tech-developer",
-    title: "Tech Developer",
+    title: "Blue Sports Car Desert Scene",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-developer.jpg",
-    alt: "Image of tech developer",
-    category: "Technology"
+    alt: "Image of blue sports car desert scene",
+    category: "Vehicles"
   },
   {
     id: "technology-tech-innovation",
-    title: "Tech Innovation",
+    title: "Car Rear Spoiler Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-innovation.jpg",
-    alt: "Image of tech innovation",
-    category: "Technology"
+    alt: "Image of car rear spoiler detail",
+    category: "Vehicles"
   },
   {
     id: "technology-tech-workspace",
-    title: "Tech Workspace",
+    title: "Muscle Car Front View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-workspace.jpg",
-    alt: "Image of tech workspace",
-    category: "Technology"
+    alt: "Image of muscle car front view",
+    category: "Vehicles"
   }
 ];
