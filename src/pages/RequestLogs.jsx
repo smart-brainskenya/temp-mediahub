@@ -5,6 +5,7 @@ export default function RequestLogs() {
   const [requests, setRequests] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [configWarning, setConfigWarning] = useState(null);
   const [filterStatus, setFilterStatus] = useState('all'); // all, pending, fulfilled
 
   useEffect(() => {
@@ -16,13 +17,20 @@ export default function RequestLogs() {
         return res.json();
       })
       .then(data => {
-        // data should be an array of requests now (from Blob in prod or Local File in dev)
-        if (Array.isArray(data)) {
+        // Handle explicit configuration warning
+        if (data.warning === 'BLOB_NOT_CONFIGURED') {
+          setConfigWarning('Vercel Blob Storage is not connected. Requests are temporary and will not persist.');
+          setRequests(data.requests || []);
+        } 
+        // Handle standard array response (Production with Blob OR Local Dev)
+        else if (Array.isArray(data)) {
           setRequests(data);
-        } else if (data.production && Array.isArray(data.requests)) {
-          // Fallback for different data structures if they exist
+        } 
+        // Handle legacy/fallback object structure
+        else if (data.requests && Array.isArray(data.requests)) {
           setRequests(data.requests);
-        } else {
+        } 
+        else {
           setRequests([]);
         }
         setLoading(false);
@@ -113,10 +121,23 @@ export default function RequestLogs() {
         <div className="title-row">
           <h1>Asset Request Logs</h1>
           <div className="storage-badge">
-            <span className="dot"></span> Persistent Storage Active
+            <span className={`dot ${configWarning ? 'error' : ''}`}></span> 
+            {configWarning ? 'Storage Disconnected' : 'Persistent Storage Active'}
           </div>
         </div>
         <p>Review and manage student requests for missing images and videos.</p>
+        
+        {configWarning && (
+          <div className="logs-error" style={{ marginTop: '1rem', padding: '1rem', textAlign: 'left' }}>
+            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+              <div className="error-icon" style={{ fontSize: '1.5rem', marginBottom: 0 }}>⚠️</div>
+              <div>
+                <strong>Configuration Required:</strong> {configWarning}<br/>
+                <span style={{ fontSize: '0.9rem' }}>Please connect a Vercel Blob store to this project in the Vercel Dashboard.</span>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="logs-stats">

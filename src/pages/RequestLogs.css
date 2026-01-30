@@ -50,6 +50,11 @@
   box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.1);
 }
 
+.storage-badge .dot.error {
+  background: #ef4444;
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.1);
+}
+
 .logs-header p {
   color: #64748b;
   font-size: 1.1rem;

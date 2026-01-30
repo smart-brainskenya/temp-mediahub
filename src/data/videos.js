@@ -119,13 +119,6 @@ export const videos = [
     category: "Sports"
   },
   {
-    id: "music-doechii-girl-get-up",
-    title: "Girl Get Up ft. SZA",
-    src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/Doechii-girl-get-up.-Feat.-SZA-Doechii-720p-h264.mp4",
-    poster: "https://media.media.smartbrainskenya.com/file/MediaHub/Videos/Doechii-girl-get-up.-Feat.-SZA-Doechii-720p-h264.jpg",
-    category: "Music"
-  },
-  {
     id: "music-ayra-starr-whos-dat-girl",
     title: "Who's Dat Girl",
     src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/Ayra-Starr-Rema-Whos-Dat-Girl-AyraStarrVEVO-720p-h264.mp4",
@@ -146,14 +139,6 @@ export const videos = [
     poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/Ayra-Starr-Rush-Official-Music-Video-AyraStarrVEVO-720p-h264.jpg",
     category: "Music"
   },
-  /*{
-    id: "music-ayra-starr-hot-body",
-    title: "Hot Body",
-    src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/Ayra-Starr-Hot-Body-AyraStarrVEVO-720p-h264.mp4",
-    poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/Ayra-Starr-Hot-Body-AyraStarrVEVO-720p-h264.jpg",
-    category: "Music"
-  },
-  */
   {
     id: "sports-charity-matches-funny",
     title: "Charity Matches Funny Moments",

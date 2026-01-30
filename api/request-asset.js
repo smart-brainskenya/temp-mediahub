@@ -1,15 +1,17 @@
 import { put, list } from '@vercel/blob';
 
 const BLOB_FILENAME = 'asset-requests.json';
+const CUSTOM_TOKEN = process.env.mediahub_READ_WRITE_TOKEN;
 
 async function getBlobData() {
-  // Safety check for token inside helper as well, though mostly handled by caller
-  if (!process.env.BLOB_READ_WRITE_TOKEN) {
+  // Safety check for your custom token name
+  if (!CUSTOM_TOKEN) {
     return { version: 1, requests: [] };
   }
 
   try {
-    const { blobs } = await list();
+    // Pass token explicitly since it's not using the default BLOB_READ_WRITE_TOKEN name
+    const { blobs } = await list({ token: CUSTOM_TOKEN });
     const blob = blobs.find(b => b.pathname === BLOB_FILENAME);
     
     if (!blob) {
@@ -28,13 +30,13 @@ async function getBlobData() {
 }
 
 export default async function handler(req, res) {
-  const hasToken = !!process.env.BLOB_READ_WRITE_TOKEN;
+  const hasToken = !!CUSTOM_TOKEN;
 
   if (req.method === 'POST') {
     try {
       const requestData = req.body;
       
-      // LOGGING TO STDOUT (Always do this as backup/Phase 1 behavior)
+      // LOGGING TO STDOUT
       console.log('NEW_ASSET_REQUEST:', JSON.stringify(requestData, null, 2));
 
       if (hasToken) {
@@ -47,14 +49,15 @@ export default async function handler(req, res) {
         }
         data.requests.push(requestData);
 
-        // 3. Write back to Blob
+        // 3. Write back to Blob (passing token explicitly)
         await put(BLOB_FILENAME, JSON.stringify(data, null, 2), {
           access: 'public',
           contentType: 'application/json',
-          addRandomSuffix: false
+          addRandomSuffix: false,
+          token: CUSTOM_TOKEN
         });
       } else {
-        console.warn('Vercel Blob Storage not configured (BLOB_READ_WRITE_TOKEN missing). Request logged to console only.');
+        console.warn('mediahub_READ_WRITE_TOKEN missing. Request logged to console only.');
       }
 
       res.status(200).json({ success: true, message: 'Request processed successfully' });
@@ -64,16 +67,17 @@ export default async function handler(req, res) {
     }
   } else if (req.method === 'GET') {
     try {
-      let sortedRequests = [];
-
-      if (hasToken) {
-        const data = await getBlobData();
-        sortedRequests = (data.requests || []).sort((a, b) => {
-          return new Date(b.timestamp) - new Date(a.timestamp);
+      if (!hasToken) {
+        return res.status(200).json({ 
+          requests: [], 
+          warning: 'BLOB_NOT_CONFIGURED' 
         });
-      } else {
-        console.warn('Vercel Blob Storage not configured. Returning empty list.');
       }
+
+      const data = await getBlobData();
+      const sortedRequests = (data.requests || []).sort((a, b) => {
+        return new Date(b.timestamp) - new Date(a.timestamp);
+      });
 
       res.status(200).json(sortedRequests);
     } catch (error) {

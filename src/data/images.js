@@ -4,696 +4,696 @@
 export const images = [
   {
     id: "animals-lion",
-    title: "Lion",
+    title: "Male Lion Profile",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/animals/lion.jpg",
-    alt: "Image of lion",
+    alt: "Image of male lion profile",
     category: "Animals"
   },
   {
     id: "cities-architectural-detail",
-    title: "Leopard",
+    title: "Leopard Standing In Grass",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/architectural-detail.jpg",
-    alt: "Image of architectural detail",
+    alt: "Image of leopard standing in grass",
     category: "Animals"
   },
   {
     id: "cities-architectural-facade",
-    title: "Sleeping leopard",
+    title: "Tiger Resting On Rock",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/architectural-facade.jpg",
-    alt: "Image of architectural facade",
+    alt: "Image of tiger resting on rock",
     category: "Animals"
   },
   {
     id: "cities-architecture-minimal",
-    title: "Ferrari in Forest",
+    title: "Orange Sports Car In Forest",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/architecture-minimal.jpg",
-    alt: "Image of architecture minimal",
-    category: "Cars"
+    alt: "Image of orange sports car in forest",
+    category: "Vehicles"
   },
   {
     id: "cities-busy-street",
-    title: "BMW Convoy",
+    title: "Sports Cars Driving In Convoy",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/busy-street.jpg",
-    alt: "Image of busy street",
-    category: "Cars"
+    alt: "Image of sports cars driving in convoy",
+    category: "Vehicles"
   },
   {
     id: "cities-city-infrastructure",
-    title: "Porsche 911",
+    title: "Modified Sports Car Studio Shot",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/city-infrastructure.jpg",
-    alt: "Image of city infrastructure",
-    category: "Cars"
+    alt: "Image of modified sports car studio shot",
+    category: "Vehicles"
   },
   {
     id: "cities-city-night-lights",
-    title: "City Night Lights",
+    title: "Soft Pink Flower Bouquet",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/city-night-lights.jpg",
-    alt: "Image of city night lights",
-    category: "Cities"
+    alt: "Image of soft pink flower bouquet",
+    category: "Nature"
   },
   {
     id: "cities-city-night",
-    title: "City Night",
+    title: "Lioness Drinking Water",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/city-night.jpg",
-    alt: "Image of city night",
-    category: "Cities"
+    alt: "Image of lioness drinking water",
+    category: "Animals"
   },
   {
     id: "cities-city-plaza",
-    title: "City Plaza",
+    title: "Sports Car Hood In Rain",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/city-plaza.jpg",
-    alt: "Image of city plaza",
-    category: "Cities"
+    alt: "Image of sports car hood in rain",
+    category: "Vehicles"
   },
   {
     id: "cities-city-street-view",
-    title: "City Street View",
+    title: "Luxury Cars Parked On Road",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/city-street-view.jpg",
-    alt: "Image of city street view",
-    category: "Cities"
+    alt: "Image of luxury cars parked on road",
+    category: "Vehicles"
   },
   {
     id: "cities-french-architecture",
-    title: "French Architecture",
+    title: "Pink Flower Blossom",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/french-architecture.jpg",
-    alt: "Image of french architecture",
-    category: "Cities"
+    alt: "Image of pink flower blossom",
+    category: "Nature"
   },
   {
     id: "cities-industrial-architecture",
-    title: "Industrial Architecture",
+    title: "Horse Standing Outdoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/industrial-architecture.jpg",
-    alt: "Image of industrial architecture",
-    category: "Cities"
+    alt: "Image of horse standing outdoors",
+    category: "Animals"
   },
   {
     id: "cities-modern-architecture",
-    title: "Modern Architecture",
+    title: "Classic Cars Indoor Display",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/modern-architecture.jpg",
-    alt: "Image of modern architecture",
-    category: "Cities"
+    alt: "Image of classic cars indoor display",
+    category: "Vehicles"
   },
   {
     id: "cities-street-photography",
-    title: "Street Photography",
+    title: "Elephant And Calf In Savannah",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/street-photography.jpg",
-    alt: "Image of street photography",
-    category: "Cities"
+    alt: "Image of elephant and calf in savannah",
+    category: "Animals"
   },
   {
     id: "cities-tropical-resort",
-    title: "Tropical Resort",
+    title: "Luxury Car Interior Dashboard",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/tropical-resort.jpg",
-    alt: "Image of tropical resort",
-    category: "Cities"
+    alt: "Image of luxury car interior dashboard",
+    category: "Vehicles"
   },
   {
     id: "cities-ubuntu-cafe",
-    title: "Urban Cafe",
+    title: "Red Sports Car Indoor Display",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-cafe.jpg",
-    alt: "Image of urban cafe",
-    category: "Cities"
+    alt: "Image of red sports car indoor display",
+    category: "Vehicles"
   },
   {
     id: "cities-urban-buildings",
-    title: "Urban Buildings",
+    title: "Sports Cars Driving Together",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-buildings.jpg",
-    alt: "Image of urban buildings",
-    category: "Cities"
+    alt: "Image of sports cars driving together",
+    category: "Vehicles"
   },
   {
     id: "cities-urban-commute",
-    title: "Urban Commute",
+    title: "Acacia Tree In Savannah",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-commute.jpg",
-    alt: "Image of urban commute",
-    category: "Cities"
+    alt: "Image of acacia tree in savannah",
+    category: "Nature"
   },
   {
     id: "cities-urban-landscape",
-    title: "Urban Landscape",
+    title: "Yellow Sports Car On Road",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-landscape.jpg",
-    alt: "Image of urban landscape",
-    category: "Cities"
+    alt: "Image of yellow sports car on road",
+    category: "Vehicles"
   },
   {
     id: "cities-urban-park",
-    title: "Urban Park",
+    title: "Historic Building Exterior",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-park.jpg",
-    alt: "Image of urban park",
-    category: "Cities"
+    alt: "Image of historic building exterior",
+    category: "Architecture"
   },
   {
     id: "cities-urban-street",
-    title: "Urban Street",
+    title: "Sports Cars Parked In Formation",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-street.jpg",
-    alt: "Image of urban street",
-    category: "Cities"
+    alt: "Image of sports cars parked in formation",
+    category: "Vehicles"
   },
   {
     id: "cities-urban-street-life",
-    title: "Urban Street Life",
+    title: "Wildlife Under Acacia Tree",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/cities/urban-street-life.jpg",
-    alt: "Image of urban street life",
-    category: "Cities"
+    alt: "Image of wildlife under acacia tree",
+    category: "Nature"
   },
   {
     id: "music-adele-30-album",
-    title: "Adele 30 Album",
+    title: "Female Portrait Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/adele-30-album.jpg",
-    alt: "Image of adele 30 album",
-    category: "Music"
+    alt: "Image of female portrait close-up",
+    category: "People"
   },
   {
     id: "music-ariana-grande-ai",
-    title: "Ariana Grande Ai",
+    title: "Female Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/ariana-grande-ai.jpg",
-    alt: "Image of ariana grande ai",
-    category: "Music"
+    alt: "Image of female studio portrait",
+    category: "People"
   },
   {
     id: "music-ariana-grande-edit",
-    title: "Ariana Grande Edit",
+    title: "Female Casual Fashion Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/ariana-grande-edit.jpg",
-    alt: "Image of ariana grande edit",
-    category: "Music"
+    alt: "Image of female casual fashion portrait",
+    category: "People"
   },
   {
     id: "music-ariana-grande-portrait",
-    title: "Ariana Grande Portrait",
+    title: "Female Fashion Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/ariana-grande-portrait.jpg",
-    alt: "Image of ariana grande portrait",
-    category: "Music"
+    alt: "Image of female fashion portrait",
+    category: "People"
   },
   {
     id: "music-ed-sheeran-2023",
-    title: "Ed Sheeran 2023",
+    title: "Male Portrait With Glasses",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/ed-sheeran-2023.jpg",
-    alt: "Image of ed sheeran 2023",
-    category: "Music"
+    alt: "Image of male portrait with glasses",
+    category: "People"
   },
   {
     id: "music-ed-sheeran-mathematics",
-    title: "Ed Sheeran Mathematics",
+    title: "Male Guitar Performance Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/ed-sheeran-mathematics.jpg",
-    alt: "Image of ed sheeran mathematics",
+    alt: "Image of male guitar performance close-up",
     category: "Music"
   },
   {
     id: "music-grammy-winner-country",
-    title: "Grammy Winner Country",
+    title: "Female Country Singer Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/grammy-winner-country.jpg",
-    alt: "Image of grammy winner country",
+    alt: "Image of female country singer portrait",
     category: "Music"
   },
   {
     id: "music-lainey-wilson-music",
-    title: "Lainey Wilson Music",
+    title: "Female Country Music Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/lainey-wilson-music.jpg",
-    alt: "Image of lainey wilson music",
+    alt: "Image of female country music portrait",
     category: "Music"
   },
   {
     id: "music-lainey-wilson-portrait",
-    title: "Lainey Wilson Portrait",
+    title: "Female Country Music Performance",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/lainey-wilson-portrait.jpg",
-    alt: "Image of lainey wilson portrait",
+    alt: "Image of female country music performance",
     category: "Music"
   },
   {
     id: "music-music-art-quote",
-    title: "Music Art Quote",
+    title: "Guitar Performance Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/music-art-quote.jpg",
-    alt: "Image of music art quote",
+    alt: "Image of guitar performance close-up",
     category: "Music"
   },
   {
     id: "music-music-festival",
-    title: "Music Festival",
+    title: "Football Players Locker Room Scene",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/music-festival.jpg",
-    alt: "Image of music festival",
-    category: "Music"
+    alt: "Image of football players locker room scene",
+    category: "Sports"
   },
   {
     id: "music-taylor-swift-edit",
-    title: "Taylor Swift Edit",
+    title: "Female Fashion Detail Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/taylor-swift-edit.jpg",
-    alt: "Image of taylor swift edit",
-    category: "Music"
+    alt: "Image of female fashion detail portrait",
+    category: "People"
   },
   {
     id: "music-taylor-swift-eras-fearless",
-    title: "Taylor Swift Eras Fearless",
+    title: "Female Singer On Stage",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/taylor-swift-eras-fearless.jpg",
-    alt: "Image of taylor swift eras fearless",
+    alt: "Image of female singer on stage",
     category: "Music"
   },
   {
     id: "music-taylor-swift-faelor",
-    title: "Taylor Swift Faelor",
+    title: "Female Stage Costume Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/taylor-swift-faelor.jpg",
-    alt: "Image of taylor swift faelor",
-    category: "Music"
+    alt: "Image of female stage costume detail",
+    category: "People"
   },
   {
     id: "music-taylor-swift-showgirl",
-    title: "Taylor Swift Showgirl",
+    title: "Female Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/music/taylor-swift-showgirl.jpg",
-    alt: "Image of taylor swift showgirl",
-    category: "Music"
+    alt: "Image of female studio portrait",
+    category: "People"
   },
   {
     id: "nature-african-landscape",
-    title: "African Landscape",
+    title: "Duck With Chicks On Water",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/african-landscape.jpg",
-    alt: "Image of african landscape",
-    category: "Nature"
+    alt: "Image of duck with chicks on water",
+    category: "Animals"
   },
   {
     id: "nature-agricultural-field",
-    title: "Agricultural Field",
+    title: "Farmers At Market Stall",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/agricultural-field.jpg",
-    alt: "Image of agricultural field",
-    category: "Nature"
+    alt: "Image of farmers at market stall",
+    category: "People"
   },
   {
     id: "nature-beach-landscape",
-    title: "Beach Landscape",
+    title: "Sports Car Rear Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/beach-landscape.jpg",
-    alt: "Image of beach landscape",
-    category: "Nature"
+    alt: "Image of sports car rear detail",
+    category: "Vehicles"
   },
   {
     id: "nature-colorful-flowers",
-    title: "Colorful Flowers",
+    title: "Mixed Flower Bouquet",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/colorful-flowers.jpg",
-    alt: "Image of colorful flowers",
+    alt: "Image of mixed flower bouquet",
     category: "Nature"
   },
   {
     id: "nature-desert-landscape",
-    title: "Desert Landscape",
+    title: "Residential Street With Trees",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/desert-landscape.jpg",
-    alt: "Image of desert landscape",
-    category: "Nature"
+    alt: "Image of residential street with trees",
+    category: "Architecture"
   },
   {
     id: "nature-farming-landscape",
-    title: "Farming Landscape",
+    title: "Family Cooking Indoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/farming-landscape.jpg",
-    alt: "Image of farming landscape",
-    category: "Nature"
+    alt: "Image of family cooking indoors",
+    category: "People"
   },
   {
     id: "nature-forest-nature",
-    title: "Forest Nature",
+    title: "Wrapped Flower Bouquet",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/forest-nature.jpg",
-    alt: "Image of forest nature",
+    alt: "Image of wrapped flower bouquet",
     category: "Nature"
   },
   {
     id: "nature-forest-path",
-    title: "Forest Path",
+    title: "Red Sedan Rear View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/forest-path.jpg",
-    alt: "Image of forest path",
-    category: "Nature"
+    alt: "Image of red sedan rear view",
+    category: "Vehicles"
   },
   {
     id: "nature-forest-stream",
-    title: "Forest Stream",
+    title: "Classic Cars On Open Field",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/forest-stream.jpg",
-    alt: "Image of forest stream",
-    category: "Nature"
+    alt: "Image of classic cars on open field",
+    category: "Vehicles"
   },
   {
     id: "nature-garden-flowers",
-    title: "Garden Flowers",
+    title: "Rose Flower Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/garden-flowers.jpg",
-    alt: "Image of garden flowers",
+    alt: "Image of rose flower close-up",
     category: "Nature"
   },
   {
     id: "nature-green-plants",
-    title: "Green Plants",
+    title: "Flowering Tree Branch",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/green-plants.jpg",
-    alt: "Image of green plants",
+    alt: "Image of flowering tree branch",
     category: "Nature"
   },
   {
     id: "nature-hiking-trail",
-    title: "Hiking Trail",
+    title: "Vintage Sports Car In Alley",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/hiking-trail.jpg",
-    alt: "Image of hiking trail",
-    category: "Nature"
+    alt: "Image of vintage sports car in alley",
+    category: "Vehicles"
   },
   {
     id: "nature-landscape-photography",
-    title: "Landscape Photography",
+    title: "Blue SUV Driving On Road",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/landscape-photography.jpg",
-    alt: "Image of landscape photography",
-    category: "Nature"
+    alt: "Image of blue suv driving on road",
+    category: "Vehicles"
   },
   {
     id: "nature-landscape-vista",
-    title: "Landscape Vista",
+    title: "Male Lion Resting In Grass",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/landscape-vista.jpg",
-    alt: "Image of landscape vista",
-    category: "Nature"
+    alt: "Image of male lion resting in grass",
+    category: "Animals"
   },
   {
     id: "nature-misty-mountains",
-    title: "Misty Mountains",
+    title: "Silver Sports Car Side View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/misty-mountains.jpg",
-    alt: "Image of misty mountains",
-    category: "Nature"
+    alt: "Image of silver sports car side view",
+    category: "Vehicles"
   },
   {
     id: "nature-mountain-hiking",
-    title: "Mountain Hiking",
+    title: "White Sports Car Outdoor",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/mountain-hiking.jpg",
-    alt: "Image of mountain hiking",
-    category: "Nature"
+    alt: "Image of white sports car outdoor",
+    category: "Vehicles"
   },
   {
     id: "nature-mountain-landscape",
-    title: "Mountain Landscape",
+    title: "Grey Performance Sedan",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/mountain-landscape.jpg",
-    alt: "Image of mountain landscape",
-    category: "Nature"
+    alt: "Image of grey performance sedan",
+    category: "Vehicles"
   },
   {
     id: "nature-mountain-peak",
-    title: "Mountain Peak",
+    title: "Red Sports Car On Road",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/mountain-peak.jpg",
-    alt: "Image of mountain peak",
-    category: "Nature"
+    alt: "Image of red sports car on road",
+    category: "Vehicles"
   },
   {
     id: "nature-mountain-snow",
-    title: "Mountain Snow",
+    title: "Horse Grazing In Field",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/mountain-snow.jpg",
-    alt: "Image of mountain snow",
-    category: "Nature"
+    alt: "Image of horse grazing in field",
+    category: "Animals"
   },
   {
     id: "nature-nature-detail",
-    title: "Nature Detail",
+    title: "Black Sports Sedan On Highway",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/nature-detail.jpg",
-    alt: "Image of nature detail",
-    category: "Nature"
+    alt: "Image of black sports sedan on highway",
+    category: "Vehicles"
   },
   {
     id: "nature-nature-water",
-    title: "Nature Water",
+    title: "Hillside Town View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/nature-water.jpg",
-    alt: "Image of nature water",
-    category: "Nature"
+    alt: "Image of hillside town view",
+    category: "Architecture"
   },
   {
     id: "nature-ocean-landscape",
-    title: "Ocean Landscape",
+    title: "Frog On Flower Petal",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/ocean-landscape.jpg",
-    alt: "Image of ocean landscape",
-    category: "Nature"
+    alt: "Image of frog on flower petal",
+    category: "Animals"
   },
   {
     id: "nature-outdoor-adventure",
-    title: "Outdoor Adventure",
+    title: "Sunrise Over Hills",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/outdoor-adventure.jpg",
-    alt: "Image of outdoor adventure",
+    alt: "Image of sunrise over hills",
     category: "Nature"
   },
   {
     id: "nature-sunset-beach",
-    title: "Sunset Beach",
+    title: "Monkey Sitting On Roof",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/sunset-beach.jpg",
-    alt: "Image of sunset beach",
-    category: "Nature"
+    alt: "Image of monkey sitting on roof",
+    category: "Animals"
   },
   {
     id: "nature-sunset-field",
-    title: "Sunset Field",
+    title: "Red Sports Car Front View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/sunset-field.jpg",
-    alt: "Image of sunset field",
-    category: "Nature"
+    alt: "Image of red sports car front view",
+    category: "Vehicles"
   },
   {
     id: "nature-sunset-sky",
-    title: "Sunset Sky",
+    title: "Lizard On Rock Surface",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/sunset-sky.jpg",
-    alt: "Image of sunset sky",
-    category: "Nature"
+    alt: "Image of lizard on rock surface",
+    category: "Animals"
   },
   {
     id: "nature-tropical-beach",
-    title: "Tropical Beach",
+    title: "Luxury Car Hood Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/tropical-beach.jpg",
-    alt: "Image of tropical beach",
-    category: "Nature"
+    alt: "Image of luxury car hood detail",
+    category: "Vehicles"
   },
   {
     id: "nature-tropical-flowers",
-    title: "Tropical Flowers",
+    title: "Sports Car At Fuel Station",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/tropical-flowers.jpg",
-    alt: "Image of tropical flowers",
-    category: "Nature"
+    alt: "Image of sports car at fuel station",
+    category: "Vehicles"
   },
   {
     id: "nature-tropical-nature",
-    title: "Tropical Nature",
+    title: "Hot Air Balloon Over Desert",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/tropical-nature.jpg",
-    alt: "Image of tropical nature",
+    alt: "Image of hot air balloon over desert",
     category: "Nature"
   },
   {
     id: "nature-wildflower-meadow",
-    title: "Wildflower Meadow",
+    title: "Red Coupe Parked Outdoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/wildflower-meadow.jpg",
-    alt: "Image of wildflower meadow",
-    category: "Nature"
+    alt: "Image of red coupe parked outdoors",
+    category: "Vehicles"
   },
   {
     id: "nature-winter-landscape",
-    title: "Winter Landscape",
+    title: "Sports Car Night Rear View",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/nature/winter-landscape.jpg",
-    alt: "Image of winter landscape",
-    category: "Nature"
+    alt: "Image of sports car night rear view",
+    category: "Vehicles"
   },
   {
     id: "objects-screenshot-1",
-    title: "Screenshot 1",
+    title: "Football Player Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/screenshot-1.png",
-    alt: "Image of screenshot 1",
-    category: "Objects"
+    alt: "Image of football player studio portrait",
+    category: "Sports"
   },
   {
     id: "objects-screenshot-2",
-    title: "Screenshot 2",
+    title: "Football Players Portrait Pair",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/screenshot-2.png",
-    alt: "Image of screenshot 2",
-    category: "Objects"
+    alt: "Image of football players portrait pair",
+    category: "Sports"
   },
   {
     id: "objects-screenshot-3",
-    title: "Screenshot 3",
+    title: "Football Player Seated Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/screenshot-3.png",
-    alt: "Image of screenshot 3",
-    category: "Objects"
+    alt: "Image of football player seated portrait",
+    category: "Sports"
   },
   {
     id: "objects-screenshot-4",
-    title: "Screenshot 4",
+    title: "Football Player Standing Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/screenshot-4.png",
-    alt: "Image of screenshot 4",
-    category: "Objects"
+    alt: "Image of football player standing portrait",
+    category: "Sports"
   },
   {
     id: "objects-screenshot-5",
-    title: "Screenshot 5",
+    title: "Football Player Training Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/screenshot-5.png",
-    alt: "Image of screenshot 5",
-    category: "Objects"
+    alt: "Image of football player training portrait",
+    category: "Sports"
   },
   {
     id: "objects-untitled-1",
-    title: "Untitled 1",
+    title: "Female Fashion Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-1.jpg",
-    alt: "Image of untitled 1",
-    category: "Objects"
+    alt: "Image of female fashion portrait",
+    category: "People"
   },
   {
     id: "objects-untitled-2",
-    title: "Untitled 2",
+    title: "Female Jewelry Detail Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-2.jpg",
-    alt: "Image of untitled 2",
-    category: "Objects"
+    alt: "Image of female jewelry detail portrait",
+    category: "People"
   },
   {
     id: "objects-untitled-3",
-    title: "Untitled 3",
+    title: "Female Casual Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-3.jpg",
-    alt: "Image of untitled 3",
-    category: "Objects"
+    alt: "Image of female casual portrait",
+    category: "People"
   },
   {
     id: "objects-untitled-4",
-    title: "Untitled 4",
+    title: "Female Smiling Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-4.jpg",
-    alt: "Image of untitled 4",
-    category: "Objects"
+    alt: "Image of female smiling portrait",
+    category: "People"
   },
   {
     id: "objects-untitled-5",
-    title: "Untitled 5",
+    title: "Male Guitar Performance",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-5.jpg",
-    alt: "Image of untitled 5",
-    category: "Objects"
+    alt: "Image of male guitar performance",
+    category: "Music"
   },
   {
     id: "objects-untitled-6",
-    title: "Untitled 6",
+    title: "Female Stage Costume Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-6.jpg",
-    alt: "Image of untitled 6",
-    category: "Objects"
+    alt: "Image of female stage costume detail",
+    category: "People"
   },
   {
     id: "objects-untitled-base",
-    title: "Untitled Base",
+    title: "Performer Stage Pose",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/objects/untitled-base.jpg",
-    alt: "Image of untitled base",
-    category: "Objects"
+    alt: "Image of performer stage pose",
+    category: "Music"
   },
   {
     id: "people-african-man-portrait",
-    title: "African Man Portrait",
+    title: "Off-Road Vehicle In Mud",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/african-man-portrait.jpg",
-    alt: "Image of african man portrait",
-    category: "People"
+    alt: "Image of off-road vehicle in mud",
+    category: "Vehicles"
   },
   {
     id: "people-asian-man-portrait",
-    title: "Asian Man Portrait",
+    title: "Modern Living Room Interior",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/asian-man-portrait.jpg",
-    alt: "Image of asian man portrait",
-    category: "People"
+    alt: "Image of modern living room interior",
+    category: "Architecture"
   },
   {
     id: "people-asian-woman-outdoor",
-    title: "Asian Woman Outdoor",
+    title: "Sports Car Rear Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/asian-woman-outdoor.jpg",
-    alt: "Image of asian woman outdoor",
-    category: "People"
+    alt: "Image of sports car rear close-up",
+    category: "Vehicles"
   },
   {
     id: "people-asian-woman-portrait",
-    title: "Asian Woman Portrait",
+    title: "City Street With Signage",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/asian-woman-portrait.jpg",
-    alt: "Image of asian woman portrait",
-    category: "People"
+    alt: "Image of city street with signage",
+    category: "Architecture"
   },
   {
     id: "people-blonde-woman-portrait",
-    title: "Blonde Woman Portrait",
+    title: "Pink Tulips Bouquet",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/blonde-woman-portrait.jpg",
-    alt: "Image of blonde woman portrait",
-    category: "People"
+    alt: "Image of pink tulips bouquet",
+    category: "Nature"
   },
   {
     id: "people-esteve-portrait",
-    title: "Esteve Portrait",
+    title: "Football Players Team Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/esteve-portrait.jpg",
-    alt: "Image of esteve portrait",
-    category: "People"
+    alt: "Image of football players team portrait",
+    category: "Sports"
   },
   {
     id: "people-girl-portrait",
-    title: "Girl Portrait",
+    title: "Giraffe In Natural Habitat",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/girl-portrait.jpg",
-    alt: "Image of girl portrait",
-    category: "People"
+    alt: "Image of giraffe in natural habitat",
+    category: "Animals"
   },
   {
     id: "people-man-beard-portrait",
-    title: "Man Beard Portrait",
+    title: "Dahlia Flower Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-beard-portrait.jpg",
-    alt: "Image of man beard portrait",
-    category: "People"
+    alt: "Image of dahlia flower close-up",
+    category: "Nature"
   },
   {
     id: "people-man-casual-portrait",
-    title: "Man Casual Portrait",
+    title: "Yellow Taxi On Street",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-casual-portrait.jpg",
-    alt: "Image of man casual portrait",
-    category: "People"
+    alt: "Image of yellow taxi on street",
+    category: "Vehicles"
   },
   {
     id: "people-man-hiking",
-    title: "Man Hiking",
+    title: "Red Sports Car Indoor Display",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-hiking.jpg",
-    alt: "Image of man hiking",
-    category: "People"
+    alt: "Image of red sports car indoor display",
+    category: "Vehicles"
   },
   {
     id: "people-man-outdoor-portrait",
-    title: "Man Outdoor Portrait",
+    title: "Car Interior Front Seats",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-outdoor-portrait.jpg",
-    alt: "Image of man outdoor portrait",
-    category: "People"
+    alt: "Image of car interior front seats",
+    category: "Vehicles"
   },
   {
     id: "people-man-portrait",
-    title: "Man Portrait",
+    title: "Sports Car Wheel Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-portrait.jpg",
-    alt: "Image of man portrait",
-    category: "People"
+    alt: "Image of sports car wheel detail",
+    category: "Vehicles"
   },
   {
     id: "people-man-professional-portrait",
-    title: "Man Professional Portrait",
+    title: "Dragonfly On Grass Stem",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-professional-portrait.jpg",
-    alt: "Image of man professional portrait",
-    category: "People"
+    alt: "Image of dragonfly on grass stem",
+    category: "Animals"
   },
   {
     id: "people-man-serious-portrait",
-    title: "Man Serious Portrait",
+    title: "Iguana On Rock",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-serious-portrait.jpg",
-    alt: "Image of man serious portrait",
-    category: "People"
+    alt: "Image of iguana on rock",
+    category: "Animals"
   },
   {
     id: "people-man-with-guitar",
-    title: "Man With Guitar",
+    title: "Blue Flower Close-Up",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/man-with-guitar.jpg",
-    alt: "Image of man with guitar",
-    category: "People"
+    alt: "Image of blue flower close-up",
+    category: "Nature"
   },
   {
     id: "people-studio-portrait",
-    title: "Studio Portrait",
+    title: "Cattle Grazing In Field",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/studio-portrait.jpg",
-    alt: "Image of studio portrait",
-    category: "People"
+    alt: "Image of cattle grazing in field",
+    category: "Animals"
   },
   {
     id: "people-vintage-portrait-1",
-    title: "Vintage Portrait 1",
+    title: "Floral Arrangement On Yellow Background",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/vintage-portrait-1.jpg",
-    alt: "Image of vintage portrait 1",
-    category: "People"
+    alt: "Image of floral arrangement on yellow background",
+    category: "Nature"
   },
   {
     id: "people-vintage-portrait-2",
-    title: "Vintage Portrait 2",
+    title: "Hands Holding Flower Bouquet",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/vintage-portrait-2.jpg",
-    alt: "Image of vintage portrait 2",
-    category: "People"
+    alt: "Image of hands holding flower bouquet",
+    category: "Nature"
   },
   {
     id: "people-woman-casual-portrait",
-    title: "Woman Casual Portrait",
+    title: "Car Key On Dashboard",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/people/woman-casual-portrait.jpg",
-    alt: "Image of woman casual portrait",
-    category: "People"
+    alt: "Image of car key on dashboard",
+    category: "Objects"
   },
   {
     id: "people-woman-confident-portrait",
@@ -767,23 +767,23 @@ export const images = [
   },
   {
     id: "sports-amad-player",
-    title: "Amad Player",
+    title: "Football Player Portrait Studio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/amad-player.jpg",
-    alt: "Image of amad player",
+    alt: "Image of football player portrait studio",
     category: "Sports"
   },
   {
     id: "sports-amad-yoro-players",
-    title: "Amad Yoro Players",
+    title: "Football Players Posing Indoors",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/amad-yoro-players.jpg",
-    alt: "Image of amad yoro players",
+    alt: "Image of football players posing indoors",
     category: "Sports"
   },
   {
     id: "sports-aston-villa-home-shirt",
-    title: "Aston Villa Home Kit",
+    title: "Aston Villa Home Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/aston-villa-home-shirt.jpg",
-    alt: "Image of aston villa home kit",
+    alt: "Image of aston villa home kit players",
     category: "Sports"
   },
   {
@@ -844,23 +844,23 @@ export const images = [
   },
   {
     id: "sports-crystal-palace-kit-1",
-    title: "Crystal Palace Kit 1",
+    title: "Crystal Palace Home Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/crystal-palace-kit-1.jpg",
-    alt: "Image of crystal palace kit 1",
+    alt: "Image of crystal palace home kit players",
     category: "Sports"
   },
   {
     id: "sports-crystal-palace-kit-2",
-    title: "Crystal Palace Kit 2",
+    title: "Crystal Palace Away Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/crystal-palace-kit-2.jpg",
-    alt: "Image of crystal palace kit 2",
+    alt: "Image of crystal palace away kit players",
     category: "Sports"
   },
   {
     id: "sports-ederson-city-1",
-    title: "Ederson City 1",
+    title: "Goalkeeper Portrait In Kit",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/ederson-city-1.jpg",
-    alt: "Image of ederson city 1",
+    alt: "Image of goalkeeper portrait in kit",
     category: "Sports"
   },
   {
@@ -872,9 +872,9 @@ export const images = [
   },
   {
     id: "sports-erling-haaland-kit",
-    title: "Erling Haaland Kit",
+    title: "Football Player Full Kit Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/erling-haaland-kit.jpg",
-    alt: "Image of erling haaland kit",
+    alt: "Image of football player full kit portrait",
     category: "Sports"
   },
   {
@@ -886,9 +886,9 @@ export const images = [
   },
   {
     id: "sports-forest-third-strip",
-    title: "Forest Third Strip",
+    title: "Football Third Kit Group",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/forest-third-strip.png",
-    alt: "Image of forest third strip",
+    alt: "Image of football third kit group",
     category: "Sports"
   },
   {
@@ -900,9 +900,9 @@ export const images = [
   },
   {
     id: "sports-jack-grealish-home-kit",
-    title: "Jack Grealish Home Kit",
+    title: "Football Player Home Kit Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/jack-grealish-home-kit.jpg",
-    alt: "Image of jack grealish home kit",
+    alt: "Image of football player home kit portrait",
     category: "Sports"
   },
   {
@@ -942,9 +942,9 @@ export const images = [
   },
   {
     id: "sports-leeds-united-player",
-    title: "Leeds United Player",
+    title: "Football Home Kit Display",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/leeds-united-player.jpg",
-    alt: "Image of leeds united player",
+    alt: "Image of football home kit display",
     category: "Sports"
   },
   {
@@ -984,30 +984,30 @@ export const images = [
   },
   {
     id: "sports-match-scene",
-    title: "Match Scene",
+    title: "Football Match Locker Room",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/match-scene.jpg",
-    alt: "Image of match scene",
+    alt: "Image of football match locker room",
     category: "Sports"
   },
   {
     id: "sports-odergaard-rice-calafiori",
-    title: "Odergaard Rice Calafiori",
+    title: "Football Players Portrait Trio",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/odergaard-rice-calafiori.jpg",
-    alt: "Image of odergaard rice calafiori",
+    alt: "Image of football players portrait trio",
     category: "Sports"
   },
   {
     id: "sports-omar-marmoush-away-kit",
-    title: "Omar Marmoush Away Kit",
+    title: "Football Away Kit Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/omar-marmoush-away-kit.png",
-    alt: "Image of omar marmoush away kit",
+    alt: "Image of football away kit portrait",
     category: "Sports"
   },
   {
     id: "sports-oscar-bobb-away-kit",
-    title: "Oscar Bobb Away Kit",
+    title: "Football Away Kit Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/oscar-bobb-away-kit.png",
-    alt: "Image of oscar bobb away kit",
+    alt: "Image of football away kit portrait",
     category: "Sports"
   },
   {
@@ -1047,9 +1047,9 @@ export const images = [
   },
   {
     id: "sports-saka-nwaneri-kit",
-    title: "Saka Nwaneri Kit",
+    title: "Football Third Kit Players",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/saka-nwaneri-kit.jpg",
-    alt: "Image of saka nwaneri kit",
+    alt: "Image of football third kit players",
     category: "Sports"
   },
   {
@@ -1124,16 +1124,16 @@ export const images = [
   },
   {
     id: "sports-ugarte-player-1",
-    title: "Ugarte Player 1",
+    title: "Football Player Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/ugarte-player-1.jpg",
-    alt: "Image of ugarte player 1",
+    alt: "Image of football player studio portrait",
     category: "Sports"
   },
   {
     id: "sports-ugarte-player-2",
-    title: "Ugarte Player 2",
+    title: "Football Player Studio Portrait",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/sports/ugarte-player-2.jpg",
-    alt: "Image of ugarte player 2",
+    alt: "Image of football player studio portrait",
     category: "Sports"
   },
   {
@@ -1166,16 +1166,16 @@ export const images = [
   },
   {
     id: "technology-tech-developer",
-    title: "Blue Sports Car Desert Scene",
+    title: "Blue Sports Car In Desert",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-developer.jpg",
-    alt: "Image of blue sports car desert scene",
+    alt: "Image of blue sports car in desert",
     category: "Vehicles"
   },
   {
     id: "technology-tech-innovation",
-    title: "Car Rear Spoiler Detail",
+    title: "Sports Car Rear Spoiler Detail",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-innovation.jpg",
-    alt: "Image of car rear spoiler detail",
+    alt: "Image of sports car rear spoiler detail",
     category: "Vehicles"
   },
   {
