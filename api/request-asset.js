@@ -16,8 +16,15 @@ export default function handler(req, res) {
       console.error('Request Error:', error);
       res.status(500).json({ error: 'Failed to process request' });
     }
+  } else if (req.method === 'GET') {
+    // In production, we don't have a persistent file to read from.
+    // Instruct the user to check Vercel logs.
+    res.status(200).json({ 
+      production: true, 
+      message: 'Requests are available via Vercel logs.' 
+    });
   } else {
-    res.setHeader('Allow', ['POST']);
+    res.setHeader('Allow', ['POST', 'GET']);
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
 }

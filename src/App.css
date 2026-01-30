@@ -1081,10 +1081,179 @@ button:hover {
 .success-state p {
   color: var(--text-light);
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
-@keyframes bounceIn {
-  0% { transform: scale(0); }
-  50% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+.success-subtext {
+  font-size: 0.95rem;
+  margin-top: 0.5rem !important;
 }
+
+.form-hint {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin: 0.25rem 0 0.75rem 0;
+  font-style: italic;
+}
+
+.character-count {
+  display: block;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 0.25rem;
+}
+
+.loading-dot {
+  animation: pulse-dot 1s infinite;
+  display: inline-block;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* ============ REQUEST LOGS PAGE ============ */
+.logs-container {
+  padding: 1rem 0;
+  animation: fadeIn 0.4s ease-out;
+}
+
+.logs-header {
+  margin-bottom: 2rem;
+}
+
+.logs-header h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 0 0 0.5rem;
+}
+
+.logs-header p {
+  color: var(--text-light);
+  margin: 0;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  background: white;
+  border: 1px solid var(--border-color);
+}
+
+.logs-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.logs-table th {
+  background: #f8fafc;
+  text-align: left;
+  padding: 1rem;
+  font-weight: 600;
+  color: var(--text-light);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.logs-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
+  vertical-align: middle;
+}
+
+.logs-table tr:last-child td {
+  border-bottom: none;
+}
+
+.logs-table tr:hover {
+  background-color: #f8fafc;
+}
+
+.badge-type, .badge-context, .badge-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge-type.image { background: #e0f2fe; color: #0284c7; }
+.badge-type.video { background: #fae8ff; color: #a21caf; }
+
+.badge-context { background: #f1f5f9; color: #475569; border: 1px solid #cbd5e1; }
+
+.badge-status.pending { background: #fef3c7; color: #d97706; }
+.badge-status.fulfilled { background: #dcfce7; color: #16a34a; }
+
+.btn-fulfill {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  background-color: var(--success-color);
+  color: white;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.btn-fulfill:hover {
+  background-color: #059669;
+  transform: translateY(-1px);
+}
+
+.text-muted {
+  color: var(--text-light);
+  font-style: italic;
+}
+
+.col-query { font-weight: 600; }
+.col-time { white-space: nowrap; color: var(--text-light); font-size: 0.9rem; }
+.col-note { max-width: 250px; }
+
+.logs-production-message {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f8fafc;
+  border-radius: 16px;
+  border: 2px dashed var(--border-color);
+}
+
+.logs-info-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.logs-production-message h3 {
+  margin: 0 0 0.5rem;
+  color: var(--text-color);
+}
+
+.logs-production-message p {
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.logs-empty {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-light);
+  font-size: 1.1rem;
+  background: white;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+
+.logs-loading, .logs-error {
+  text-align: center;
+  padding: 4rem;
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+.logs-error { color: #ef4444; }

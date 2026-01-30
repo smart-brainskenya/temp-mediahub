@@ -22,13 +22,19 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!query.trim()) return;
+    
+    // Validation: require at least 3 characters in query
+    const trimmedQuery = query.trim();
+    if (trimmedQuery.length < 3) {
+      setToast({ message: "Please describe what you're looking for (at least 3 characters).", type: "error" });
+      return;
+    }
 
     setStatus("submitting");
 
     const requestData = {
       id: `req_${Date.now()}`,
-      query: query.trim(),
+      query: trimmedQuery,
       type,
       note: note.trim(),
       context,
@@ -52,9 +58,8 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
       }
     } catch (error) {
       console.error(error);
-      setStatus("error");
+      setStatus("idle");
       setToast({ message: "Failed to send request. Please try again.", type: "error" });
-      setTimeout(() => setStatus("idle"), 3000);
     }
   };
 
@@ -81,13 +86,11 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
           {status === "success" ? (
             <div className="success-state">
               <div className="success-icon">✓</div>
-              <h3>Request Sent!</h3>
-              <p>
-                We've received your request for <strong>"{query}"</strong>.<br/>
-                Our team will look for it. Check back soon!
-              </p>
+              <h3>Request sent successfully!</h3>
+              <p>We'll add "<strong>{query.trim()}</strong>" to our collection soon.</p>
+              <p className="success-subtext">Check back to see your request in action!</p>
               <button className="btn-primary" onClick={onClose}>
-                Return to Gallery
+                Close
               </button>
             </div>
           ) : (
@@ -97,17 +100,20 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
                 <label className="form-label" htmlFor="req-query">
                   What are you looking for?
                 </label>
+                <p className="form-hint">Be specific to help us find it faster</p>
                 <input
                   id="req-query"
                   type="text"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
                   className="form-input"
-                  placeholder="e.g. Red apple on a table"
+                  placeholder="e.g. Red apple, Mountain landscape, Soccer goals"
                   required
                   disabled={status === "submitting"}
                   autoFocus
+                  minLength="3"
                 />
+                <small className="character-count">{query.trim().length} characters</small>
               </div>
 
               <div className="form-group">
@@ -183,7 +189,7 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
                   value={note}
                   onChange={(e) => setNote(e.target.value)}
                   className="form-textarea"
-                  placeholder="e.g. Needed for history presentation on Tuesday"
+                  placeholder="e.g. Needed for a Potfolio website, school presentation,"
                   disabled={status === "submitting"}
                 />
               </div>
@@ -201,9 +207,17 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
                 <button 
                   type="submit" 
                   className="btn-primary" 
-                  disabled={status === "submitting" || !query.trim()}
+                  disabled={status === "submitting" || query.trim().length < 3}
+                  style={{ position: 'relative' }}
                 >
-                  {status === "submitting" ? "Sending..." : "Send Request"}
+                  {status === "submitting" ? (
+                    <>
+                      <span style={{ opacity: 0.7 }}>Sending...</span>
+                      <span className="loading-dot" style={{ marginLeft: '0.5rem' }}>•</span>
+                    </>
+                  ) : (
+                    "Send Request"
+                  )}
                 </button>
               </div>
             </form>

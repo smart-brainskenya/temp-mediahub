@@ -8,6 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 // Lazy load the gallery pages to reduce initial bundle size
 const ImageGallery = lazy(() => import("./pages/ImageGallery"));
 const VideoLibrary = lazy(() => import("./pages/VideoLibrary"));
+const RequestLogs = lazy(() => import("./pages/RequestLogs"));
 
 // Loading fallback component
 const PageLoader = () => (
@@ -41,6 +42,14 @@ function App() {
             element={
               <Suspense fallback={<PageLoader />}>
                 <VideoLibrary />
+              </Suspense>
+            } 
+          />
+          <Route 
+            path="mediahub/requests" 
+            element={
+              <Suspense fallback={<PageLoader />}>
+                <RequestLogs />
               </Suspense>
             } 
           />
