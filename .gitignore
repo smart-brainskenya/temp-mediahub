@@ -25,3 +25,4 @@ ai-spec
 *.sw?
 asset_ingestion/*
 
+ai-spec/
