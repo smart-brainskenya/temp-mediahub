@@ -124,7 +124,7 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
               </div>
 
               <div className="form-group">
-                <label className="form-label">Asset Type</label>
+                <label className="form-label">Media Type</label>
                 <div className="radio-group">
                   <label className="radio-card">
                     <input
@@ -156,7 +156,7 @@ export default function RequestAssetModal({ initialQuery, initialType = "image",
               </div>
 
               <div className="form-group">
-                <label className="form-label">Context</label>
+                <label className="form-label">Purpose</label>
                 <div className="radio-group">
                   <label className="radio-card">
                     <input
