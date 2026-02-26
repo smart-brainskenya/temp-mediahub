@@ -2,6 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'fs'
 import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // Custom plugin to handle asset requests in dev mode
 const assetRequestPlugin = () => ({
@@ -90,7 +93,7 @@ const assetRequestPlugin = () => ({
                 res.end(JSON.stringify({ error: 'Request not found' }));
               }
             }
-          } catch (err) {
+          } catch {
             res.statusCode = 500;
             res.end(JSON.stringify({ error: 'Fulfillment failed' }));
           }

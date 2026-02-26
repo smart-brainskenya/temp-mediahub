@@ -82,7 +82,7 @@ export default function RequestLogs() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id })
       });
-    } catch (e) {
+    } catch {
       // Ignore if API doesn't exist (e.g. production)
     }
   };

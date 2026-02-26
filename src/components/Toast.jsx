@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState } from "react";
 
 export default function Toast({ message, type = "success", duration = 3000 }) {
   const [isVisible, setIsVisible] = useState(true);
@@ -22,24 +22,3 @@ export default function Toast({ message, type = "success", duration = 3000 }) {
   );
 }
 
-// Hook to manage toast visibility
-export function useToast() {
-  const [toasts, setToasts] = useState([]);
-
-  const addToast = useCallback((message, type = "success", duration = 3000) => {
-    const id = Date.now();
-    setToasts((prev) => [...prev, { id, message, type, duration }]);
-
-    setTimeout(() => {
-      setToasts((prev) => prev.filter((toast) => toast.id !== id));
-    }, duration);
-
-    return id;
-  }, []);
-
-  const removeToast = useCallback((id) => {
-    setToasts((prev) => prev.filter((toast) => toast.id !== id));
-  }, []);
-
-  return { toasts, addToast, removeToast };
-}

@@ -1184,13 +1184,5 @@ export const images = [
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-workspace.jpg",
     alt: "Image of muscle car front view",
     category: "Vehicles"
-  },
-   {
-    id: "technology-tech-workspace",
-    title: "Muscle Car Front View",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/technology/tech-workspace.jpg",
-    alt: "Image of muscle car front view",
-    category: "Vehicles"
   }
-
 ];

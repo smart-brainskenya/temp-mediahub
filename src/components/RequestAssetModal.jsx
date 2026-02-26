@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Toast from "./Toast";
-import { href } from "react-router-dom";
 
 export default function RequestAssetModal({ initialQuery, initialType = "image", onClose }) {
   const [query, setQuery] = useState(initialQuery || "");
