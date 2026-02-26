@@ -1,4 +1,4 @@
-import { useState, useMemo, lazy, Suspense } from "react";
+import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { images } from "../data/images";
 import ImageCard from "../components/ImageCard";
