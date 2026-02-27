@@ -1185,4 +1185,11 @@ export const images = [
     alt: "Image of muscle car front view",
     category: "Vehicles"
   }
+  {
+    id: "recycling",
+    title: "Recycling Image",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/animals/images.png",
+    alt: "Image of muscle car front view",
+    category: "Animals"
+  }
 ];
