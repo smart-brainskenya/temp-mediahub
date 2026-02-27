@@ -161,4 +161,11 @@ export const videos = [
     poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/33-BEST-Goals-in-FOOTBALL-History-Teo-CRi-720p-h264.jpg",
     category: "Sports"
   }
+  {
+  id: "entertainment-university-of-character-development",
+  title: "University of Character Development - Mkurugenzi Minisodes 13 Ep 5",
+  src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/University-of-Character-Development-Mkurugenzi-Minisodes-13-Ep-5-Abel-Mutua-720p-h264.mp4",
+  poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/University-of-Character-Development-Mkurugenzi-Minisodes-13-Ep-5-Abel-Mutua-720p-h264.jpg",
+  category: "Entertainment"
+}
 ];
