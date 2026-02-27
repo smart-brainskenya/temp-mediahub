@@ -160,5 +160,5 @@ export const videos = [
     src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/33-BEST-Goals-in-FOOTBALL-History-Teo-CRi-720p-h264.mp4",
     poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/33-BEST-Goals-in-FOOTBALL-History-Teo-CRi-720p-h264.jpg",
     category: "Sports"
-  }
+  },
 ];
