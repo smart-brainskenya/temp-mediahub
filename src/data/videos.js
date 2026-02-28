@@ -134,13 +134,6 @@ export const videos = [
     category: "Sports"
   },
   {
-    id: "music-ayra-starr-rush",
-    title: "Rush",
-    src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/Ayra-Starr-Rush-Official-Music-Video-AyraStarrVEVO-720p-h264.mp4",
-    poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/Ayra-Starr-Rush-Official-Music-Video-AyraStarrVEVO-720p-h264.jpg",
-    category: "Music"
-  },
-  {
     id: "sports-charity-matches-funny",
     title: "Charity Matches Funny Moments",
     src: "https://media.media.smartbrainskenya.com/file/h_720/MediaHub/Videos/Charity-Matches-Funny-Moments-MaxianFootball-720p-h264.mp4",
