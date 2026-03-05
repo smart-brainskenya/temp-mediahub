@@ -1179,24 +1179,10 @@ export const images = [
     category: "Vehicles"
   },
   {
-    id: "technology-tech-workspace",
-    title: "Sankara Nairobi",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-1.html",
-    alt: "Sankara hotel in Nairobi",
-    category: "Hotels"
-  },
- {
-    id: "technology-tech-workspace",
-    title: "Sankara Nairobi",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download.html",
-    alt: "Sankara hotel in Nairobi",
-    category: "Hotels"
-  },
-   {
-    id: "technology-tech-workspace",
-    title: "Man making furniture",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-1.html",
-    alt: "Furniture making",
+    id: "technology-tech-innovation",
+    title: "Sankara hotel in nairobi",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download.jpg",
+    alt: "Image of hotels in Nairobi",
     category: "Hotels"
   },
 ];
