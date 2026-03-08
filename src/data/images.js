@@ -1179,52 +1179,10 @@ export const images = [
     category: "Vehicles"
   },
   {
-    id: "technology-tech-workspace",
-    title: "Sankara Nairobi",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-1.jpg",
-    alt: "Sankara hotel in Nairobi",
-    category: "Hotels"
-  },
- {
-    id: "technology-tech-workspace",
-    title: "Sankara Nairobi",
+    id: "technology-tech-innovation",
+    title: "Sankara hotel in nairobi",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download.jpg",
-    alt: "Sankara hotel in Nairobi",
+    alt: "Image of hotels in Nairobi",
     category: "Hotels"
-  },
-   {
-    id: "technology-tech-workspace",
-    title: "Man making furniture",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-1.jpg",
-    alt: "Furniture making",
-    category: "Furniture"
-  },
-   {
-    id: "technology-tech-workspace",
-    title: "Man making furniture",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-8.jpg",
-    alt: "Furniture making",
-    category: "Furniture"
-  },
-  {
-    id: "technology-tech-workspace",
-    title: "Tech for Healthier tomorrow",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-6.jpg",
-    alt: "Healthier tomorrow",
-    category: "Technology"
-  },
-  {
-    id: "technology-tech-workspace",
-    title: "Tech for Healthier tomorrow",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images.jpg",
-    alt: "Healthier tomorrow",
-    category: "Technology"
-  },
-   {
-    id: "technology-tech-workspace",
-    title: "Tech for Healthier tomorrow",
-    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-7.jpg",
-    alt: "Healthier tomorrow",
-    category: "Technology"
   },
 ];
