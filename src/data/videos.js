@@ -154,4 +154,14 @@ export const videos = [
     poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/33-BEST-Goals-in-FOOTBALL-History-Teo-CRi-720p-h264.jpg",
     category: "Sports"
   },
+  {
+  id: "ten-in-the-bed-camping",
+  title: "Ten in the Bed - Camping Edition",
+  subtitle: "Little Angel Kids Songs & Nursery Rhymes",
+  poster: "https://media.media.smartbrainskenya.com/file/w_1280/MediaHub/Videos/Ten-in-the-Bed-Camping-Edition-Little-Angel-Kids-Songs-Nursery-Rhymes-Little-Angel-Nursery-Rhymes-Kids-Songs-720p-h264.jpg",
+  src: "https://media.media.smartbrainskenya.com/file/h_480/MediaHub/Videos/Ten-in-the-Bed-Camping-Edition-Little-Angel-Kids-Songs-Nursery-Rhymes-Little-Angel-Nursery-Rhymes-Kids-Songs-720p-h264.mp4",
+  type: "video/mp4",
+  controls: true,
+  allowDownload: false
+},
 ];
