@@ -1185,4 +1185,67 @@ export const images = [
     alt: "Image of hotels in Nairobi",
     category: "Hotels"
   },
+  {
+    id: "technology-tech-innovation",
+    title: "Instagram",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-9.jpg",
+    alt: "instagram for development",
+    category: "app"
+  },
+   {
+    id: "technology-tech-innovation",
+    title: "Instagram",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-2.jpg",
+    alt: "instagram for development",
+    category: "app"
+  },
+     {
+    id: "technology-tech-innovation",
+    title: "Instagram",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-1-V.jpeg",
+    alt: "instagram for development",
+    category: "app"
+  },
+  {
+    id: "technology-tech-innovation",
+    title: "Jehnie Kim",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-10.jpg",
+    alt: "Celebrity people",
+    category: "People"
+  },
+  {
+    id: "technology-tech-innovation",
+    title: "Jehnie Kim",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-3.jpg",
+    alt: "Celebrity people",
+    category: "People"
+  },
+  {
+    id: "technology-tech-innovation",
+    title: "SZA",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-11.jpg",
+    alt: "Celebrity people",
+    category: "People"
+  },
+  {
+    id: "technology-tech-innovation",
+    title: "SZA",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-12.jpg",
+    alt: "Celebrity people",
+    category: "People"
+  },
+  {
+    id: "technology-tech-innovation",
+    title: "Central Cee",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/download-13.jpg",
+    alt: "Celebrity people",
+    category: "People"
+  },
+  {
+    id: "technology-tech-innovation",
+    title: "Central Cee",
+    src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-4.jpg",
+    alt: "Celebrity people",
+    category: "People"
+  },
 ];
