@@ -1192,14 +1192,14 @@ export const images = [
     alt: "instagram for development",
     category: "app"
   },
-   {
+  {
     id: "technology-tech-innovation",
     title: "Instagram",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-2.jpg",
     alt: "instagram for development",
     category: "app"
   },
-     {
+  {
     id: "technology-tech-innovation",
     title: "Instagram",
     src: "https://media.media.smartbrainskenya.com/file/MediaHub/Images/images-1-V.jpeg",
